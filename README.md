@@ -1,0 +1,2 @@
+# ukrajinet
+Ukrainian Wordnet
