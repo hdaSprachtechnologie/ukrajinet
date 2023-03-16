@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LexicalResource SYSTEM "WN-LMF-1.1.dtd">
+
+<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
+	<Lexicon id="Ukrajinet"
+	label="Ukrainian WordNet"
+	language="uk"
+	email="melanie.siegel@h-da.de"
+	license="https://creativecommons.org/licenses/by-sa/4.0/"
+	version="01"
+	citation=""
+	url=""
+	dc:publisher="Maksym Vakulenko"
+	dc:format="OMW-LMF" 
+	dc:description="Ukrajinet is an open Wordnet for the Ukrainian language. 
+	It is based on the dictionaries: 
+	Vakulenko, M. O. and O. V. Vakulenko. 2017. Slovnyk fizychnykh terminiv-synonimiv [Dictionary of physical synonymous terms]. Kyjiv: VPC “Kyjivsjkyj universytet”. 191 p. (in Ukrainian).   
+	Vakulenko, M. O. and O. V. Vakulenko. 2008. Tlumachnyj slovnyk iz fizyky: [6644 statti] (Explanatory dictionary on physics: [6644 articles]). Kyjiv: Vydavnycho-polighrafichnyj centr 'Kyjivsjkyj universytet'. 767 p.
+	The project was started in October 2022."
+	confidenceScore="0.6" >
+
+
+
+
+
+
+</Lexicon>
+</LexicalResource>

@@ -15851,7 +15851,7 @@
 	<Sense id="w3892_1476-n" synset="ukrajinet-1476-n"/>
 </LexicalEntry>
 <LexicalEntry id="w3893">
-	<Lemma writtenForm="скрапліньні" partOfSpeech="n"/>
+	<Lemma writtenForm="скраплінь" partOfSpeech="n"/>
 	<Sense id="w3893_1476-n" synset="ukrajinet-1476-n"/>
 </LexicalEntry>
 <LexicalEntry id="w3894">
@@ -31092,7 +31092,7 @@
 	<Sense id="w7664_2945-n" synset="ukrajinet-2945-n"/>
 </LexicalEntry>
 <LexicalEntry id="w7665">
-	<Lemma writtenForm="теренив" partOfSpeech="n"/>
+	<Lemma writtenForm="терени" partOfSpeech="n"/>
 	<Sense id="w7665_2945-n" synset="ukrajinet-2945-n"/>
 </LexicalEntry>
 <LexicalEntry id="w7666">
@@ -32980,7 +32980,7 @@
 	<Sense id="w8131_3126-n" synset="ukrajinet-3126-n"/>
 </LexicalEntry>
 <LexicalEntry id="w8132">
-	<Lemma writtenForm="флуктуаціїй" partOfSpeech="n"/>
+	<Lemma writtenForm="флуктуації" partOfSpeech="n"/>
 	<Sense id="w8132_3127-n" synset="ukrajinet-3127-n"/>
 </LexicalEntry>
 <LexicalEntry id="w8133">
@@ -35246,7 +35246,7 @@
 	<Sense id="w8694_3345-n" synset="ukrajinet-3345-n"/>
 </LexicalEntry>
 <LexicalEntry id="w8695">
-	<Lemma writtenForm="лисковецьвцю" partOfSpeech="n"/>
+	<Lemma writtenForm="лисковець" partOfSpeech="n"/>
 	<Sense id="w8695_3345-n" synset="ukrajinet-3345-n"/>
 </LexicalEntry>
 <LexicalEntry id="w8696">
@@ -35260,8 +35260,12 @@
 <Synset id="ukrajinet-4-n" ili="i97809" partOfSpeech="n">
 	<Definition> зношування частинок гірських порід через тертя під дією води, вітру або льоду</Definition>
 </Synset>
-<Synset id="ukrajinet-5-n" ili="" partOfSpeech="n"/>
-<Synset id="ukrajinet-6-n" ili="" partOfSpeech="n"/>
+<Synset id="ukrajinet-5-n" ili="i61928" partOfSpeech="n">
+	<Definition>якість бути абсолютним</Definition>
+</Synset>
+<Synset id="ukrajinet-6-n" ili="i63918" partOfSpeech="n">
+	<Definition>якість бути цілковитим, повним або екстремальним</Definition>
+</Synset>
 <Synset id="ukrajinet-7-n" ili="" partOfSpeech="n"/>
 <Synset id="ukrajinet-8-n" ili="" partOfSpeech="n"/>
 <Synset id="ukrajinet-9-v" ili="" partOfSpeech="v"/>
