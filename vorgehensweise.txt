@@ -5,7 +5,7 @@ Input-Format
 
 
 ----------------------------
-Vorverarbeitung
+Vorverarbeitung (Doc to Txt)
 
 Leerzeilen entfernen, Zeilen mit Alphabet-Buchstaben entfernen	OK
 
