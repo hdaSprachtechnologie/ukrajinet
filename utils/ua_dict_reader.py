@@ -6,13 +6,25 @@ import uuid
 import random
 from random import *
 
-out_lex = open('ua-lexentries.txt','w', encoding="utf-8")
-out_ss = open('ua-synsets.txt','w', encoding="utf-8")
-#no_en_trans = open('no_en_trans.txt','w', encoding="utf-8")
-#no_en_ss = open('no_en_ss.txt','w', encoding="utf-8")
+'''
+This file uses the input of resources/synonym_list.txt
+Nouns and verbs (POS) will be extracted here
+Furthermore two files will be generated:
 
-#synset_id = 0
+1. ua.lexentries.txt – this got the term and the synset ID like ("абера́ція","ukrajinet-2-n")
 
+2. ua-synsets.txt – generates the used synset ID
+'''
+
+## Files for output ##
+out_lex = open('utils/output_files/ua-lexentries.txt','w', encoding="utf-8")
+out_ss = open('utils/output_files/ua-synsets.txt','w', encoding="utf-8")
+# no_en_trans = open('no_en_trans.txt','w', encoding="utf-8")
+# no_en_ss = open('no_en_ss.txt','w', encoding="utf-8")
+
+# synset_id = 0
+
+## Determine if the term is a verb or a noun ##
 def determine_ua_word_pos(lexitem):
     if lexitem.endswith("ти") or lexitem.endswith("тися") or lexitem.endswith("тись"):
         pos='v'
@@ -20,6 +32,11 @@ def determine_ua_word_pos(lexitem):
         pos='n'
     return pos
 
+## Determine which term is used ##
+'''
+If it is one term, take that term for POS detection 
+If it is two terms, take the first term for POS detection 
+'''
 def determine_ua_pos(lexitem):
     toks = lexitem.split()
     if len(toks) == 1:
@@ -45,13 +62,10 @@ def lookup_pos(synset_wordlist):
             pos='x'
     return pos
 
+# read the dictionary text file with a csv reader
+# with open('openthesaurus-input.txt',newline='',encoding="utf-8") as f:
 
-
-
-#read the dictionary text file with a csv reader
-#with open('openthesaurus-input.txt',newline='',encoding="utf-8") as f:
-
-with open('synonym_list.txt',newline='',encoding="utf-8") as f:
+with open('resources/synonym_list.txt',newline='',encoding="utf-8") as f:
     reader = csv.reader(f, delimiter=';')
     synset_id = 0
     for synset_wordlist in reader:
@@ -71,7 +85,7 @@ out_ss.close()
 #no_en_ss.close()
         
 '''#This is how one gets the synset id from WordNet:
-ss = wn.synsets('dog')[0]
+ss = wn.synsets('dog')[0]b
 offset = str(ss.offset()).zfill(8) + '-' + ss.pos()
 '''
 '''#This is how one gets an English translation of a German word with goslate:

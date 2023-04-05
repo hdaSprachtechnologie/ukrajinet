@@ -1,9 +1,11 @@
 import ua_lexentries
 from ua_lexentries import lexlist
 
-out = open('ua-sorted-lexentries.txt','w', encoding="utf-8")
+'''
+Safe the same terms in a list for further processing
+'''
 
-
+out = open('utils/output_files/ua-sorted-lexentries.txt','w', encoding="utf-8")
 
 for t in lexlist:
 	newlist = []

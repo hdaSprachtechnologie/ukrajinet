@@ -3,7 +3,7 @@ import random
 from random import *
 import wordlists
 from wordlists import wordlists
-#from nltk.corpus import wordnet as wn
+# from nltk.corpus import wordnet as wn
 
 '''
 XML für LexicalEntry erzeugen:
@@ -13,15 +13,15 @@ XML für LexicalEntry erzeugen:
 	- XML-Ausgabe
 '''
 
-
-
-outfile = open('ua_xml_lexentries.xml','w', encoding="utf-8")
+outfile = open('utils/output_files/ua_xml_lexentries.xml','w', encoding="utf-8")
 
 wordid = 0
 
 
 '''
-Input:[('спотво́рення', 'ukrajinet-1-n'), ('спотво́рення', 'ukrajinet-2796-n')]
+Input:
+[('спотво́рення', 'ukrajinet-1-n'), ('спотво́рення', 'ukrajinet-2796-n')]
+
 Output:
 <LexicalEntry id="w1">
     <Lemma writtenForm="спотво́рення" partOfSpeech="n"/>
@@ -33,7 +33,7 @@ Output:
 
 
 for wordlist in wordlists:
-#    print(wordlist)
+#   print(wordlist)
     wordid = wordid + 1
     pos = wordlist[0][1][-1]
     outfile.write('<LexicalEntry id="w' + str(wordid) + '">\n\t<Lemma writtenForm="' + wordlist[0][0] + '" partOfSpeech="' + pos + '"/>\n')                  

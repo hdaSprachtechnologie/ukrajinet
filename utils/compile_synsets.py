@@ -4,7 +4,7 @@ from nltk.corpus import wordnet as wn
 from itertools import islice
 
 
-out = open('ua_synsets.xml','w',encoding='utf-8')
+out = open('utils/output_files/ua_synsets.xml','w',encoding='utf-8')
 
 '''
 ("1-n")
@@ -13,8 +13,6 @@ out = open('ua_synsets.xml','w',encoding='utf-8')
 
 
 '''
-
-
 
 for ss in synsets:
     synset_id = 'ukrajinet-' + ss
