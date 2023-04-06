@@ -28,10 +28,10 @@
 	<Sense id="w2_1-n" synset="ukrajinet-1-n"/>
 	<Sense id="w2_2796-n" synset="ukrajinet-2796-n"/>
 </LexicalEntry>
-<LexicalEntry id="w3">
+<!-- <LexicalEntry id="w3">
 	<Lemma writtenForm="абера́ція" partOfSpeech="n"/>
 	<Sense id="w3_2-n" synset="ukrajinet-2-n"/>
-</LexicalEntry>
+</LexicalEntry> -->
 <LexicalEntry id="w4">
 	<Lemma writtenForm="збо́чення" partOfSpeech="n"/>
 	<Sense id="w4_2-n" synset="ukrajinet-2-n"/>
@@ -9083,7 +9083,7 @@
 	<Sense id="w2225_824-n" synset="ukrajinet-824-n"/>
 	<Sense id="w2225_837-n" synset="ukrajinet-837-n"/>
 </LexicalEntry>
-<LexicalEntry id="w2226">
+<!-- <LexicalEntry id="w2226">
 	<Lemma writtenForm="́" partOfSpeech="n"/>
 	<Sense id="w2226_824-n" synset="ukrajinet-824-n"/>
 	<Sense id="w2226_837-n" synset="ukrajinet-837-n"/>
@@ -9092,11 +9092,9 @@
 	<Sense id="w2226_1482-n" synset="ukrajinet-1482-n"/>
 	<Sense id="w2226_1982-n" synset="ukrajinet-1982-n"/>
 	<Sense id="w2226_2151-n" synset="ukrajinet-2151-n"/>
-	<Sense id="w2226_2151-n" synset="ukrajinet-2151-n"/>
-	<Sense id="w2226_2152-n" synset="ukrajinet-2152-n"/>
 	<Sense id="w2226_2152-n" synset="ukrajinet-2152-n"/>
 	<Sense id="w2226_2207-n" synset="ukrajinet-2207-n"/>
-</LexicalEntry>
+</LexicalEntry> -->
 <LexicalEntry id="w2227">
 	<Lemma writtenForm="дискриміна́тор" partOfSpeech="n"/>
 	<Sense id="w2227_825-n" synset="ukrajinet-825-n"/>

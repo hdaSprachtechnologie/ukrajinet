@@ -393,9 +393,9 @@ def test_necessary_conditions(wordnet):
     highest_lex_id(wordnet)
 
 
-#Main Program
-g_wordDict = get_word_dict('ukrajinet.xml')
-test_necessary_conditions('ukrajinet.xml')
-#find_inconsistent_lexids('ukrainian_wordnet_v3.xml')
-#test_for_valid_ids('ukrainian_wordnet_v3.xml')
-#test_valid_xml('ukrainian_wordnet_v3.xml')
+# Main Program
+g_wordDict = get_word_dict('automatic-ukrajinet.xml')
+test_necessary_conditions('automatic-ukrajinet.xml')
+find_inconsistent_lexids('automatic-ukrajinet.xml')
+test_for_valid_ids('automatic-ukrajinet.xml')
+test_valid_xml('automatic-ukrajinet.xml')
