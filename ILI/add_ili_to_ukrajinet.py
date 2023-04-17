@@ -1,15 +1,23 @@
-# Add ILI to Ukrajinet
-
 from xml.etree import ElementTree as ET
 from lxml import etree
 import re
 import csv
-#from synset_ili_dict import ili_dict
+# from synset_ili_dict import ili_dict
 from synset_ili_dict_2 import ili_dict
 
+'''
+Add ILI to Ukrajinet
+'''
+
+# init global variable 
 g_wordDict = None
 
-########## Access to Wordnet #######
+'''
+Access to Wordnet
+===
+gets a local wordnet file and returns lexicon
+which is used by the function get_word_dict(wordnet)
+'''
 
 def get_wordnet_lexicon_local(wnfile):
      loc_wn = open(wnfile,"r",encoding="utf-8-sig")
@@ -18,7 +26,13 @@ def get_wordnet_lexicon_local(wnfile):
      lexicon = wnroot.find('Lexicon')
      return lexicon
 
-########## LexEntries ######
+'''
+LexEntries
+===
+Uses function get_wordnet_lexicon_local(wnfile)
+to extract all the information in the file (like lemma)
+and writes it to a dictionary wordDict = {}
+'''
 
 def get_word_dict(wordnet):
     lexicon = get_wordnet_lexicon_local(wordnet)            
@@ -32,7 +46,7 @@ def get_word_dict(wordnet):
     return wordDict
 
 def words_in_synset(id):
-    lexicon = get_wordnet_lexicon_local(r'C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ukrajinet\ukrajinet.xml')
+    lexicon = get_wordnet_lexicon_local(r'../automatic-ukrajinet.xml')
     words = []
     for lexentry in lexicon.iter('LexicalEntry'):
         for sense in lexentry.iter('Sense'):
@@ -41,9 +55,10 @@ def words_in_synset(id):
                 words.append(lemma)
     return(words)
 
-######### Combine Synsets with ILI ##########
-#ili_translations = open('translation_table.tsv','r', encoding='utf-8', errors='ignore')
-
+'''
+Combine Synsets with ILI
+'''
+# ili_translations = open('translation_table.tsv','r', encoding='utf-8', errors='ignore')
 
 def find_ilis(w):
     with open('translation_table.tsv','r', encoding='utf-8', errors='ignore') as ili_translations:
@@ -59,11 +74,9 @@ def find_ilis(w):
                 english.append(row["EN"])
         return ili, definition, english
          
-
-
-
+         
 def combine_synsets_and_ili():
-     g_wordDict = get_word_dict(r'C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ukrajinet\ukrajinet.xml')
+     g_wordDict = get_word_dict(r'../automatic-ukrajinet.xml')
      out = open("out.txt","w",encoding="utf-8-sig")
      synset_ili_dict={}
      for key in g_wordDict:
@@ -81,14 +94,17 @@ def combine_synsets_and_ili():
      out.close()
      return synset_ili_dict
 
-##### Add unique ILIs to Ukrajinet
+'''
+Add unique ILIs to Ukrajinet
+===
+First get a one line version
+'''
 
-## First get a one line version
+ua_wn = open(r"../automatic-ukrajinet.xml","r",encoding="utf-8")
 
-ua_wn = open(r"C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ukrajinet\ukrajinet.xml","r",encoding="utf-8")
-
-
-# Ziel:  Ukrajinet editieren, sodass die Einträge jeweils auf einer Zeile stehen
+'''
+The following code aims to edit Ukrajinet so that the entries are each on one line 
+'''
 
 def format_ukrajinet_oneline():
     lines = ua_wn.readlines()
@@ -171,12 +187,10 @@ def format_ukrajinet_oneline():
             out_ukrajinet.write(line)
     out_ukrajinet.close()
 
-
-
 # Attribute in Synsets verändern, z.B. ili
 # change_attribute_in_ss('ukrajinet-4-n','ili','i97809',r"C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ILI\ukrajinet_oneline.xml")
 
-def change_attribute_in_ss(synset,att,value,wordnetfile):
+def change_attribute_in_ss(synset, att, value, wordnetfile):
         in_wordnet = open(wordnetfile,"r",encoding="utf-8")
         lines = in_wordnet.readlines()
         in_wordnet.close()
@@ -193,7 +207,7 @@ def change_attribute_in_ss(synset,att,value,wordnetfile):
 # add_definition_to_ss('ukrajinet-4-n','зношування частинок гірських порід через тертя під дією води, вітру або льоду',r"C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ILI\ukrajinet_oneline.xml")
 
 
-def add_definition_to_ss(synset,definition, wordnetfile):
+def add_definition_to_ss(synset, definition, wordnetfile):
         ua_wn = open(wordnetfile,"r",encoding="utf-8")
         lines = ua_wn.readlines()
         ua_wn.close()
@@ -229,7 +243,6 @@ def test_for_ambiguous_ili():
 
 # Alle Einträge mit diesem ILI ausgeben
 
-  
 def entries_with_ili(ili):
         for key in ili_dict:
             if ili == ili_dict[key][0][0]:
@@ -262,7 +275,7 @@ def prettyprint_wordnet(wordnet):
     oneline_wordnet = open(wordnet,"r", encoding="utf-8")
     lines = oneline_wordnet.readlines()
     oneline_wordnet.close()
-    pretty_wordnet = open(r'C:\Users\Melanie Siegel\Documents\05_Projekte\Maksym Vakulenko\Wordnet\ukrajinet\ukrajinet.xml',"w",encoding="utf-8")
+    pretty_wordnet = open(r'../automatic-ukrajinet.xml',"w",encoding="utf-8")
     for line in lines:
         line = line.replace("<Lemma","\n\t<Lemma")
         line = line.replace("<Sense","\n\t<Sense")
