@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+
+    <style>
+        
+body {
+    background-color: whitesmoke;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+pre {
+    color: purple;
+}
+  
+.content {
+    text-align: center; 
+}
+
+.footer {
+    position: sticky;
+    bottom: 0em;
+    width: 100%;
+    height: 4em;
+    margin-top: auto;
+}
+    </style>
+
+</head>
+    
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}">Ukrajinet</a>
+            </li>
+        </ul>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('about') }}">About</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+    <br>
+        {% block content_title %}
+        {% endblock %}
+    <br>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <!-- <div class="col-sm-4">
+                {% block content_right %} 
+                {% endblock %}
+            </div> -->
+        </div>
+    </div>
+
+    <footer class="footer bg-secondary" role="contentinfo">
+        <div class="container">
+            <br>
+            <p></p>
+        </div>
+    </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
