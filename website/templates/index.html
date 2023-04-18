@@ -5,8 +5,10 @@
 <br>
 <h2>Ukrainian Wordnet</h2>
 
-
 {% endblock %}
-{% block content %}
 
+{% block content %}
+{% for lex_entry in uk_wordnet %}
+{% print(lex_entry) %}
+{% endfor %}
 {% endblock %}
