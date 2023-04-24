@@ -1,16 +1,14 @@
-from flask import Flask
-# from flask_restful import Resource, Api
 import xml.etree.ElementTree as ET
 
-def get_wn():
-    uk_wn = open(r"automatic-ukrajinet.xml","r",encoding="utf-8-sig")
-    wntree = ET.parse(uk_wn)
-    wnroot = wntree.getroot()
-    lexicon = wnroot.find('Lexicon')
-    return lexicon
+uk_wn = open(r"ukrajinet.xml","r",encoding="utf-8-sig")
+wntree = ET.parse(uk_wn)
+wnroot = wntree.getroot()
+lexicon = wnroot.find('Lexicon')
 
-def get_word_dict():
-    lexicon = get_wn()            
+def create_wn():
+    pass
+
+def retrieve_wn():          
     wordDict = {}        
     for synset in lexicon.findall('./Synset'):
         wordDict[synset.attrib['id']] = []
@@ -19,3 +17,11 @@ def get_word_dict():
             lemma = lexentry.find('Lemma').attrib['writtenForm']
             wordDict[sense.attrib['synset']].append(lemma)
     return wordDict
+
+def update_wn():
+    pass
+
+def delete_wn():
+    pass
+
+

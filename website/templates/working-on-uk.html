@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} Ukrainian Wordnet {% endblock %}
+{% block content_title %}
+<h1>Ukrajinet</h1>
+You are now logged in and ready to work.
+
+<a href="{{ url_for('logout') }}">Click here to log out.</a>
+
+{% endblock %}
+
+{% block content %}
+{% for lex_entry in uk_wordnet %}
+{% print(lex_entry) %}
+{% endfor %}
+{% endblock %}

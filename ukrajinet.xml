@@ -20,7 +20,7 @@
 	confidenceScore="0.6" >
 
 <LexicalEntry id="w1">
-	<Lemma writtenForm="﻿аберація" partOfSpeech="n"/>
+	<Lemma writtenForm="аберація" partOfSpeech="n"/>
 	<Sense id="w1_1-n" synset="ukrajinet-1-n"/>
 	<Sense id="w3_2-n" synset="ukrajinet-2-n"/>
 </LexicalEntry>
