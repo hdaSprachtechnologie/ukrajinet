@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin, login_user, login_required, logout_user, current_user, LoginManager
 from flask_wtf import FlaskForm
@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 # Initialize
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/tree/Documents/02_h_da/02_Master/Siegel/WPP/Ukrajinet/ukrajinet/website/database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/tree/Documents/02_h_da/02_Master/Siegel/WPP/Ukrajinet/ukrajinet/website/database.db' # Relative path is not working - cant figure out why
 app.config['SECRET_KEY'] = "notforproductionuseyet"
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
@@ -40,7 +40,7 @@ class User(db.Model, UserMixin):
 
 with app.app_context():
     db.create_all()
-app
+
 ###########
 ## FORMS ## 
 ###########
@@ -54,14 +54,6 @@ class RegisterForm(FlaskForm):
         min=4, max=20)], render_kw={"placeholder": "Password"})
     submit = SubmitField("Register")
 
-## Check if username already exists
-
-def validate_username(self, username):
-    existing_user_username = User.query.filter_by(
-        username = username.data).first()
-    if existing_user_username:
-        raise ValdationError("That username already exists. Please try a different one.")
-
 # Login Form
 
 class LoginForm(FlaskForm):
@@ -71,6 +63,7 @@ class LoginForm(FlaskForm):
         min=4, max=20)], render_kw={"placeholder": "Password"})
     submit = SubmitField("Login")
 
+
 ################
 ## APP ROUTES ##
 ################
@@ -78,15 +71,22 @@ class LoginForm(FlaskForm):
 @app.route('/')
 def index():
     return render_template('index.html',
-                            uk_wordnet = ukrajinet.retrieve_wn())
+                            retrieve_lex_entries = ukrajinet.retrieve_wn_lex_entries(),
+                            retrieve_wn_synsets = ukrajinet.retrieve_wn_synsets())
 
-@app.route('/about/')
+##########
+
+@app.route('/about')
 def about():
     return render_template('about.html')
 
-@app.route('/login/', methods=['GET', 'POST'])
+##########
+
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
+
+    error = None
 
     if form.validate_on_submit():
         user = User.query.filter_by(
@@ -94,37 +94,57 @@ def login():
         if user:
             if bcrypt.check_password_hash(user.password, form.password.data):
                 login_user(user)
-                return redirect(url_for('working_on_uk'))
+                
+                return redirect(url_for('edit_ukrajinet'))
+            else: 
+                error = "Invalid username or password. Please try again!"
+        else: 
+            error = "Invalid username or password. Please try again!"
+                
 
-    return render_template('login.html', form=form)
+    return render_template('login.html', form=form, error=error)
 
-@app.route('/logout/', methods=['GET', 'POST'])
+##########
+
+@app.route('/logout', methods=['GET', 'POST'])
 @login_required
 def logout():
     logout_user()
     return redirect(url_for('login'))
 
+##########
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
 
+    error = None 
+
     if form.validate_on_submit():
-        hashed_password = bcrypt.generate_password_hash(form.password.data) # hash password
-        new_user = User(username=form.username.data, password=hashed_password) # add user 
-        db.session.add(new_user) # add user to db
-        db.session.commit()
+        user = User.query.filter_by(
+            username=form.username.data).first()
+        if user:
+            error = "The username is already taken."
+        else:
+            hashed_password = bcrypt.generate_password_hash(form.password.data) # hash password
+            new_user = User(username=form.username.data, password=hashed_password) # add user 
+            db.session.add(new_user) # add user to db
+            db.session.commit()
 
-        return redirect(url_for('login'))
+            return redirect(url_for('login'))
 
+    return render_template('register.html', form=form, error=error)
 
-    return render_template('register.html', form=form)
+##########
 
-@app.route('/working-on-uk', methods=['GET', 'POST'])
+@app.route('/edit-ukrajinet', methods=['GET', 'POST'])
 @login_required
 
-def working_on_uk():
-    return render_template('working-on-uk.html')
+def edit_ukrajinet():
+
+    return render_template('edit-ukrajinet.html',
+                            retrieve_lex_entries = ukrajinet.retrieve_wn_lex_entries(),
+                            retrieve_wn_synsets = ukrajinet.retrieve_wn_synsets())
 
 
 if __name__ == '__main__':

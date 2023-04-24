@@ -19,5 +19,14 @@
 
 Don't have an account?
 <a href="{{url_for('register')}}">Sign up</a>
+<br>
+
+<!-- Error for Login (invalid username or password) -->
+{% if error %}
+<p><strong>{{ error }} </strong>
+{% endif %}
+
 </center>
+
+
 {% endblock %}

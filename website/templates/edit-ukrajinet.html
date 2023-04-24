@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %} Ukrainian Wordnet {% endblock %}
+{% block content_title %}
+<h1>Ukrajinet</h1>
+You are now logged in and ready to work.
+
+<!-- <a href="{{ url_for('logout') }}">Click here to log out.</a> -->
+
+{% endblock %}
+
+
+{% block content %}
+
+<br>
+<ul class="d-flex flex-row list-group list-group-horizontal justify-content-center">
+    <li class="list-group-item list-group-item-info"><abbr title="Identifier">ID</abbr></li>
+    <li class="list-group-item list-group-item-info"><abbr title="Lemma - writtenForm">Word</abbr></li>
+    <li class="list-group-item list-group-item-info"><abbr title="Part of Speech">POS</abbr></li>
+    <li class="list-group-item list-group-item-info"><abbr title="The sense of the word - embedded in a synset (one word can have multiple senses)">Sense</abbr></li>
+</ul>
+<br>
+
+{% for key, value in retrieve_lex_entries.items(): %}
+    {% set id_lex_entry = key %}
+    {% set lemma_lex_entry = value['Lemma_writtenForm'] %}
+    {% set pos_lex_entry = value['Lemma_partOfSpeech'] %}
+    {% set sense_lex_entry = value['Sense'] %}
+
+    {% if pos_lex_entry == 'n' %}
+        {% set pos_lex_entry = 'noun' %}
+
+    {% elif pos_lex_entry == 'v' %}
+        {% set pos_lex_entry = 'verb' %}
+    
+    {% endif %}
+
+    <ul class="d-flex flex-row list-group list-group-flush list-group-horizontal justify-content-center">
+        <li class="list-group-item list-group-item-dark">{{ id_lex_entry }}</li>
+        <li class="list-group-item list-group-item-dark">{{ lemma_lex_entry }}</li>
+        <li class="list-group-item list-group-item-dark">{{ pos_lex_entry }}</li>
+        <li class="list-group-item list-group-item-dark">{{ sense_lex_entry }}</li>
+    </ul>
+    <br>
+
+{% endfor %}
+
+
+
+
+{% endblock %}
