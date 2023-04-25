@@ -72,7 +72,7 @@ class LoginForm(FlaskForm):
 def index():
     return render_template('index.html',
                             retrieve_lex_entries = ukrajinet.retrieve_wn_lex_entries(),
-                            retrieve_wn_synsets = ukrajinet.retrieve_wn_synsets())
+                            retrieve_synsets = ukrajinet.retrieve_wn_synsets())
 
 ##########
 
@@ -144,7 +144,7 @@ def edit_ukrajinet():
 
     return render_template('edit-ukrajinet.html',
                             retrieve_lex_entries = ukrajinet.retrieve_wn_lex_entries(),
-                            retrieve_wn_synsets = ukrajinet.retrieve_wn_synsets())
+                            retrieve_synsets = ukrajinet.retrieve_wn_synsets())
 
 
 if __name__ == '__main__':
