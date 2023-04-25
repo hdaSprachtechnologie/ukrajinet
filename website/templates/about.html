@@ -2,13 +2,21 @@
 {% block title %} About {% endblock %}
 
 {% block content_title %}
-<h1>Ukrajinet</h1>
+<div class="jumbotron">
+    <h1 class="display-4">This is Ukrajinet – a Ukrainian Wordnet.</h1>
+
+    <p class="lead">The Website is intended to present the data of Ukrajinet.</p>
+    <hr class="my-4">
+    <p>Furthermore logged in people can add, edit and delete data.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="{{url_for('login')}}" role="button">Login</a>
+    </p>
+  </div>
 {% endblock %}
 
 {% block content %}
+
 <center>
-<p>This is Ukrajinet – a Ukrainian Wordnet.<br>
-The Website is intended to present the data of Ukrajinet.<br>
-Furthermore logged in people can add, edit and delete data.</p>
+<p>Place further project information here</p>
 </center>
 {% endblock %}

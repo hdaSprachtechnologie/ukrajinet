@@ -5,8 +5,16 @@ wn_tree = ET.parse(uk_wn)
 wn_root = wn_tree.getroot()
 lexicon = wn_root.find('Lexicon')
 
+############
+## CREATE ##
+############
+
 def create_wn():
     pass
+
+##############
+## RETRIEVE ##
+##############
 
 def retrieve_wn_lex_entries():  
     # Retrieve LexEntries and save to dictionary
@@ -43,9 +51,16 @@ def retrieve_wn_synsets():
     
     return synset_entries_dict
 
+############
+## UPDATE ##
+############
 
 def update_wn():
     pass
+
+############
+## DELETE ##
+############
 
 def delete_wn():
     pass
