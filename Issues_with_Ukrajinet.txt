@@ -1,0 +1,2165 @@
+# Issues are extracted with `python -m wn validate ukrajinet.xml > output.txt`   
+Ukrajinet:01        failed
+  synset of sense is missing
+  ### Commented out the Synsets in XML file to erase the issue of status - failed -
+    w1806_680-n: {'synset': 'ukrajinet-680-n'}
+    w2437_907-n: {'synset': 'ukrajinet-907-n'}
+    w5354_2002-a: {'synset': 'ukrajinet-2002-a'}
+    w5354_2129-a: {'synset': 'ukrajinet-2129-a'}
+    w6378_3150-n: {'synset': 'ukrajinet-3150-n'}
+  synset is empty (not associated with any lexical entries)
+    ukrajinet-1940-n
+    ukrajinet-3351-n
+    ukrajinet-3588-n
+    ukrajinet-3596-n
+    ukrajinet-3706-v
+    ukrajinet-3773-n
+    ukrajinet-3774-n
+    ukrajinet-3775-n
+    ukrajinet-3776-n
+    ukrajinet-3777-n
+    ukrajinet-3778-n
+    ukrajinet-3779-n
+    ukrajinet-3780-n
+    ukrajinet-3792-n
+    ukrajinet-3793-n
+    ukrajinet-3794-n
+    ukrajinet-3795-n
+    ukrajinet-3796-n
+    ukrajinet-3797-n
+    ukrajinet-3799-n
+    ukrajinet-3800-n
+    ukrajinet-3801-n
+    ukrajinet-3802-n
+    ukrajinet-3803-n
+    ukrajinet-3804-n
+    ukrajinet-3821-n
+  ILI is repeated across synsets
+    ukrajinet-1-n: {'ili': 'i97598'}
+    ukrajinet-3-n: {'ili': 'i114804'}
+    ukrajinet-5-n: {'ili': 'i61928'}
+    ukrajinet-6-n: {'ili': 'i63918'}
+    ukrajinet-7-n: {'ili': 'i113734'}
+    ukrajinet-9-v: {'ili': 'i35508'}
+    ukrajinet-13-n: {'ili': 'i62343'}
+    ukrajinet-14-n: {'ili': 'i68380'}
+    ukrajinet-15-n: {'ili': 'i75060'}
+    ukrajinet-19-n: {'ili': 'i107350'}
+    ukrajinet-23-n: {'ili': 'i107351'}
+    ukrajinet-28-n: {'ili': 'i114683'}
+    ukrajinet-30-n: {'ili': 'i107312'}
+    ukrajinet-33-n: {'ili': 'i107302'}
+    ukrajinet-35-n: {'ili': 'i107307'}
+    ukrajinet-37-n: {'ili': 'i62916'}
+    ukrajinet-43-n: {'ili': 'i85511'}
+    ukrajinet-44-n: {'ili': 'i113739'}
+    ukrajinet-45-n: {'ili': 'i113740'}
+    ukrajinet-46-n: {'ili': 'i107306'}
+    ukrajinet-47-n: {'ili': 'i36459'}
+    ukrajinet-53-n: {'ili': 'i97609'}
+    ukrajinet-54-n: {'ili': 'i68769'}
+    ukrajinet-56-n: {'ili': 'i68677'}
+    ukrajinet-60-n: {'ili': 'i109950'}
+    ukrajinet-62-n: {'ili': 'i107777'}
+    ukrajinet-63-n: {'ili': 'i36426'}
+    ukrajinet-65-n: {'ili': 'i49785'}
+    ukrajinet-66-n: {'ili': 'i71982'}
+    ukrajinet-68-n: {'ili': 'i73496'}
+    ukrajinet-69-n: {'ili': 'i107298'}
+    ukrajinet-70-n: {'ili': 'i40898'}
+    ukrajinet-72-n: {'ili': 'i113664'}
+    ukrajinet-73-n: {'ili': 'i49795'}
+    ukrajinet-74-n: {'ili': 'i68672'}
+    ukrajinet-76-n: {'ili': 'i113662'}
+    ukrajinet-77-n: {'ili': 'i107288'}
+    ukrajinet-78-n: {'ili': 'i68388'}
+    ukrajinet-79-n: {'ili': 'i49932'}
+    ukrajinet-80-n: {'ili': 'i114312'}
+    ukrajinet-81-n: {'ili': 'i97554'}
+    ukrajinet-83-n: {'ili': 'i70607'}
+    ukrajinet-84-n: {'ili': 'i84949'}
+    ukrajinet-85-n: {'ili': 'i109528'}
+    ukrajinet-87-n: {'ili': 'i114332'}
+    ukrajinet-90-n: {'ili': 'i58816'}
+    ukrajinet-93-n: {'ili': 'i108363'}
+    ukrajinet-97-n: {'ili': 'i75835'}
+    ukrajinet-100-n: {'ili': 'i38848'}
+    ukrajinet-101-n: {'ili': 'i67227'}
+    ukrajinet-102-n: {'ili': 'i49999'}
+    ukrajinet-107-n: {'ili': 'i114611'}
+    ukrajinet-108-n: {'ili': 'i50010'}
+    ukrajinet-109-n: {'ili': 'i62826'}
+    ukrajinet-112-n: {'ili': 'i50036'}
+    ukrajinet-114-n: {'ili': 'i113231'}
+    ukrajinet-115-n: {'ili': 'i79117'}
+    ukrajinet-116-n: {'ili': 'i50041'}
+    ukrajinet-119-n: {'ili': 'i116129'}
+    ukrajinet-120-n: {'ili': 'i97918'}
+    ukrajinet-121-n: {'ili': 'i50097'}
+    ukrajinet-123-n: {'ili': 'i50092'}
+    ukrajinet-126-n: {'ili': 'i81700'}
+    ukrajinet-130-a: {'ili': 'i19881'}
+    ukrajinet-132-n: {'ili': 'i72134'}
+    ukrajinet-133-n: {'ili': 'i67653'}
+    ukrajinet-141-n: {'ili': 'i109819'}
+    ukrajinet-145-n: {'ili': 'i112776'}
+    ukrajinet-146-n: {'ili': 'i79512'}
+    ukrajinet-150-n: {'ili': 'i72378'}
+    ukrajinet-151-n: {'ili': 'i85021'}
+    ukrajinet-152-n: {'ili': 'i113483'}
+    ukrajinet-156-n: {'ili': 'i68675'}
+    ukrajinet-158-n: {'ili': 'i68673'}
+    ukrajinet-161-n: {'ili': 'i50248'}
+    ukrajinet-164-n: {'ili': 'i85027'}
+    ukrajinet-165-n: {'ili': 'i113856'}
+    ukrajinet-167-n: {'ili': 'i67706'}
+    ukrajinet-169-n: {'ili': 'i97610'}
+    ukrajinet-171-n: {'ili': 'i63033'}
+    ukrajinet-172-n: {'ili': 'i113583'}
+    ukrajinet-173-n: {'ili': 'i109897'}
+    ukrajinet-174-n: {'ili': 'i109792'}
+    ukrajinet-177-n: {'ili': 'i113726'}
+    ukrajinet-181-v: {'ili': 'i29756'}
+    ukrajinet-182-n: {'ili': 'i50392'}
+    ukrajinet-183-n: {'ili': 'i68752'}
+    ukrajinet-184-n: {'ili': 'i106960'}
+    ukrajinet-187-n: {'ili': 'i53209'}
+    ukrajinet-188-n: {'ili': 'i115895'}
+    ukrajinet-190-n: {'ili': 'i50494'}
+    ukrajinet-192-n: {'ili': 'i85049'}
+    ukrajinet-194-n: {'ili': 'i50479'}
+    ukrajinet-197-n: {'ili': 'i50578'}
+    ukrajinet-198-n: {'ili': 'i50566'}
+    ukrajinet-200-n: {'ili': 'i59907'}
+    ukrajinet-207-n: {'ili': 'i50721'}
+    ukrajinet-209-n: {'ili': 'i114665'}
+    ukrajinet-215-n: {'ili': 'i50779'}
+    ukrajinet-221-n: {'ili': 'i97645'}
+    ukrajinet-224-n: {'ili': 'i114376'}
+    ukrajinet-226-n: {'ili': 'i68494'}
+    ukrajinet-230-n: {'ili': 'i107370'}
+    ukrajinet-231-n: {'ili': 'i81719'}
+    ukrajinet-233-n: {'ili': 'i116452'}
+    ukrajinet-236-n: {'ili': 'i108295'}
+    ukrajinet-238-n: {'ili': 'i37447'}
+    ukrajinet-239-n: {'ili': 'i116049'}
+    ukrajinet-242-v: {'ili': 'i63008'}
+    ukrajinet-243-n: {'ili': 'i63006'}
+    ukrajinet-244-n: {'ili': 'i55692'}
+    ukrajinet-245-n: {'ili': 'i97896'}
+    ukrajinet-248-n: {'ili': 'i57757'}
+    ukrajinet-250-n: {'ili': 'i38347'}
+    ukrajinet-252-n: {'ili': 'i85112'}
+    ukrajinet-253-n: {'ili': 'i50925'}
+    ukrajinet-254-n: {'ili': 'i110019'}
+    ukrajinet-255-n: {'ili': 'i76531'}
+    ukrajinet-256-v: {'ili': 'i27693'}
+    ukrajinet-258-n: {'ili': 'i75289'}
+    ukrajinet-262-n: {'ili': 'i108051'}
+    ukrajinet-263-n: {'ili': 'i114335'}
+    ukrajinet-264-n: {'ili': 'i51221'}
+    ukrajinet-267-n: {'ili': 'i54901'}
+    ukrajinet-268-n: {'ili': 'i75286'}
+    ukrajinet-269-n: {'ili': 'i97824'}
+    ukrajinet-272-v: {'ili': 'i34708'}
+    ukrajinet-273-n: {'ili': 'i51212'}
+    ukrajinet-274-n: {'ili': 'i63417'}
+    ukrajinet-275-n: {'ili': 'i50378'}
+    ukrajinet-276-n: {'ili': 'i55642'}
+    ukrajinet-281-n: {'ili': 'i110043'}
+    ukrajinet-285-n: {'ili': 'i57949'}
+    ukrajinet-286-n: {'ili': 'i63459'}
+    ukrajinet-287-n: {'ili': 'i50564'}
+    ukrajinet-288-n: {'ili': 'i55761'}
+    ukrajinet-290-n: {'ili': 'i115609'}
+    ukrajinet-291-n: {'ili': 'i60777'}
+    ukrajinet-292-n: {'ili': 'i67317'}
+    ukrajinet-295-n: {'ili': 'i60782'}
+    ukrajinet-298-n: {'ili': 'i82549'}
+    ukrajinet-299-n: {'ili': 'i55640'}
+    ukrajinet-300-n: {'ili': 'i61032'}
+    ukrajinet-305-n: {'ili': 'i108371'}
+    ukrajinet-309-n: {'ili': 'i67640'}
+    ukrajinet-310-n: {'ili': 'i60812'}
+    ukrajinet-311-n: {'ili': 'i54239'}
+    ukrajinet-314-a: {'ili': 'i20614'}
+    ukrajinet-315-n: {'ili': 'i82274'}
+    ukrajinet-316-n: {'ili': 'i82542'}
+    ukrajinet-317-n: {'ili': 'i109671'}
+    ukrajinet-319-n: {'ili': 'i35615'}
+    ukrajinet-321-n: {'ili': 'i61918'}
+    ukrajinet-322-n: {'ili': 'i112785'}
+    ukrajinet-323-n: {'ili': 'i97858'}
+    ukrajinet-325-n: {'ili': 'i67474'}
+    ukrajinet-327-n: {'ili': 'i107504'}
+    ukrajinet-331-v: {'ili': 'i29865'}
+    ukrajinet-332-n: {'ili': 'i37295'}
+    ukrajinet-334-n: {'ili': 'i37481'}
+    ukrajinet-336-n: {'ili': 'i63369'}
+    ukrajinet-337-n: {'ili': 'i106508'}
+    ukrajinet-339-v: {'ili': 'i26222'}
+    ukrajinet-344-n: {'ili': 'i53709'}
+    ukrajinet-347-v: {'ili': 'i29061'}
+    ukrajinet-352-n: {'ili': 'i59887'}
+    ukrajinet-353-n: {'ili': 'i40622'}
+    ukrajinet-356-n: {'ili': 'i56100'}
+    ukrajinet-357-v: {'ili': 'i26213'}
+    ukrajinet-358-v: {'ili': 'i34794'}
+    ukrajinet-362-v: {'ili': 'i32248'}
+    ukrajinet-363-n: {'ili': 'i37522'}
+    ukrajinet-364-n: {'ili': 'i63329'}
+    ukrajinet-366-n: {'ili': 'i108035'}
+    ukrajinet-368-n: {'ili': 'i39578'}
+    ukrajinet-376-n: {'ili': 'i98023'}
+    ukrajinet-394-n: {'ili': 'i86035'}
+    ukrajinet-396-n: {'ili': 'i58028'}
+    ukrajinet-398-n: {'ili': 'i75774'}
+    ukrajinet-404-n: {'ili': 'i63985'}
+    ukrajinet-405-n: {'ili': 'i49952'}
+    ukrajinet-422-n: {'ili': 'i60843'}
+    ukrajinet-426-v: {'ili': 'i31150'}
+    ukrajinet-428-n: {'ili': 'i58051'}
+    ukrajinet-465-n: {'ili': 'i109515'}
+    ukrajinet-478-n: {'ili': 'i68426'}
+    ukrajinet-488-n: {'ili': 'i68032'}
+    ukrajinet-489-n: {'ili': 'i110463'}
+    ukrajinet-494-n: {'ili': 'i50305'}
+    ukrajinet-498-n: {'ili': 'i37371'}
+    ukrajinet-506-n: {'ili': 'i115069'}
+    ukrajinet-519-n: {'ili': 'i60894'}
+    ukrajinet-520-n: {'ili': 'i109886'}
+    ukrajinet-527-n: {'ili': 'i86367'}
+    ukrajinet-547-n: {'ili': 'i69046'}
+    ukrajinet-554-n: {'ili': 'i115754'}
+    ukrajinet-560-n: {'ili': 'i54885'}
+    ukrajinet-562-n: {'ili': 'i115411'}
+    ukrajinet-566-n: {'ili': 'i54154'}
+    ukrajinet-571-n: {'ili': 'i41067'}
+    ukrajinet-574-n: {'ili': 'i66967'}
+    ukrajinet-580-n: {'ili': 'i110072'}
+    ukrajinet-584-n: {'ili': 'i54764'}
+    ukrajinet-599-n: {'ili': 'i68780'}
+    ukrajinet-603-n: {'ili': 'i68764'}
+    ukrajinet-615-n: {'ili': 'i108194'}
+    ukrajinet-619-n: {'ili': 'i55013'}
+    ukrajinet-621-n: {'ili': 'i68744'}
+    ukrajinet-629-n: {'ili': 'i68750'}
+    ukrajinet-631-n: {'ili': 'i97851'}
+    ukrajinet-638-n: {'ili': 'i55008'}
+    ukrajinet-642-n: {'ili': 'i68747'}
+    ukrajinet-652-n: {'ili': 'i85551'}
+    ukrajinet-655-n: {'ili': 'i74294'}
+    ukrajinet-660-n: {'ili': 'i54531'}
+    ukrajinet-668-n: {'ili': 'i97852'}
+    ukrajinet-669-n: {'ili': 'i73452'}
+    ukrajinet-682-n: {'ili': 'i54854'}
+    ukrajinet-683-n: {'ili': 'i68694'}
+    ukrajinet-686-n: {'ili': 'i62074'}
+    ukrajinet-691-n: {'ili': 'i54363'}
+    ukrajinet-694-n: {'ili': 'i107576'}
+    ukrajinet-696-n: {'ili': 'i62094'}
+    ukrajinet-698-n: {'ili': 'i114234'}
+    ukrajinet-699-n: {'ili': 'i54414'}
+    ukrajinet-702-n: {'ili': 'i85458'}
+    ukrajinet-708-n: {'ili': 'i68992'}
+    ukrajinet-710-n: {'ili': 'i85457'}
+    ukrajinet-716-n: {'ili': 'i54403'}
+    ukrajinet-717-n: {'ili': 'i114791'}
+    ukrajinet-726-n: {'ili': 'i52786'}
+    ukrajinet-755-n: {'ili': 'i107492'}
+    ukrajinet-763-n: {'ili': 'i110075'}
+    ukrajinet-764-n: {'ili': 'i51727'}
+    ukrajinet-767-n: {'ili': 'i52751'}
+    ukrajinet-768-n: {'ili': 'i37289'}
+    ukrajinet-770-n: {'ili': 'i63847'}
+    ukrajinet-776-n: {'ili': 'i97989'}
+    ukrajinet-781-n: {'ili': 'i107489'}
+    ukrajinet-789-n: {'ili': 'i68205'}
+    ukrajinet-802-n: {'ili': 'i75403'}
+    ukrajinet-812-n: {'ili': 'i53401'}
+    ukrajinet-813-n: {'ili': 'i85324'}
+    ukrajinet-826-n: {'ili': 'i41447'}
+    ukrajinet-831-n: {'ili': 'i52985'}
+    ukrajinet-833-n: {'ili': 'i115022'}
+    ukrajinet-838-n: {'ili': 'i67111'}
+    ukrajinet-840-n: {'ili': 'i39970'}
+    ukrajinet-841-v: {'ili': 'i24950'}
+    ukrajinet-850-n: {'ili': 'i97744'}
+    ukrajinet-865-n: {'ili': 'i115056'}
+    ukrajinet-878-n: {'ili': 'i52937'}
+    ukrajinet-885-n: {'ili': 'i110048'}
+    ukrajinet-889-n: {'ili': 'i49788'}
+    ukrajinet-892-n: {'ili': 'i67664'}
+    ukrajinet-893-n: {'ili': 'i63553'}
+    ukrajinet-897-n: {'ili': 'i39978'}
+    ukrajinet-899-n: {'ili': 'i110076'}
+    ukrajinet-903-n: {'ili': 'i53071'}
+    ukrajinet-915-n: {'ili': 'i61987'}
+    ukrajinet-917-n: {'ili': 'i67159'}
+    ukrajinet-920-n: {'ili': 'i62142'}
+    ukrajinet-922-n: {'ili': 'i57937'}
+    ukrajinet-926-n: {'ili': 'i71003'}
+    ukrajinet-932-n: {'ili': 'i79047'}
+    ukrajinet-949-n: {'ili': 'i82012'}
+    ukrajinet-953-n: {'ili': 'i85378'}
+    ukrajinet-962-n: {'ili': 'i36481'}
+    ukrajinet-965-n: {'ili': 'i107564'}
+    ukrajinet-966-n: {'ili': 'i115084'}
+    ukrajinet-967-n: {'ili': 'i67268'}
+    ukrajinet-968-n: {'ili': 'i110209'}
+    ukrajinet-977-n: {'ili': 'i53349'}
+    ukrajinet-982-n: {'ili': 'i53367'}
+    ukrajinet-984-n: {'ili': 'i85355'}
+    ukrajinet-996-n: {'ili': 'i109859'}
+    ukrajinet-1001-n: {'ili': 'i107543'}
+    ukrajinet-1004-n: {'ili': 'i114092'}
+    ukrajinet-1005-n: {'ili': 'i109580'}
+    ukrajinet-1009-n: {'ili': 'i97771'}
+    ukrajinet-1013-n: {'ili': 'i63341'}
+    ukrajinet-1014-n: {'ili': 'i63751'}
+    ukrajinet-1015-n: {'ili': 'i53451'}
+    ukrajinet-1017-n: {'ili': 'i82046'}
+    ukrajinet-1020-n: {'ili': 'i117408'}
+    ukrajinet-1031-n: {'ili': 'i69374'}
+    ukrajinet-1032-n: {'ili': 'i114292'}
+    ukrajinet-1034-n: {'ili': 'i37149'}
+    ukrajinet-1036-n: {'ili': 'i53296'}
+    ukrajinet-1039-n: {'ili': 'i97669'}
+    ukrajinet-1043-n: {'ili': 'i51922'}
+    ukrajinet-1049-n: {'ili': 'i52633'}
+    ukrajinet-1050-n: {'ili': 'i75744'}
+    ukrajinet-1051-n: {'ili': 'i57398'}
+    ukrajinet-1057-n: {'ili': 'i57456'}
+    ukrajinet-1068-n: {'ili': 'i67735'}
+    ukrajinet-1076-n: {'ili': 'i58057'}
+    ukrajinet-1095-n: {'ili': 'i97678'}
+    ukrajinet-1102-n: {'ili': 'i55130'}
+    ukrajinet-1105-n: {'ili': 'i52697'}
+    ukrajinet-1107-n: {'ili': 'i35394'}
+    ukrajinet-1109-v: {'ili': 'i28409'}
+    ukrajinet-1113-n: {'ili': 'i41000'}
+    ukrajinet-1120-n: {'ili': 'i54886'}
+    ukrajinet-1129-n: {'ili': 'i40199'}
+    ukrajinet-1132-n: {'ili': 'i97578'}
+    ukrajinet-1145-n: {'ili': 'i97924'}
+    ukrajinet-1157-n: {'ili': 'i63337'}
+    ukrajinet-1168-n: {'ili': 'i64917'}
+    ukrajinet-1171-n: {'ili': 'i40176'}
+    ukrajinet-1185-n: {'ili': 'i110715'}
+    ukrajinet-1190-n: {'ili': 'i37137'}
+    ukrajinet-1197-n: {'ili': 'i26600'}
+    ukrajinet-1210-n: {'ili': 'i86240'}
+    ukrajinet-1213-n: {'ili': 'i67970'}
+    ukrajinet-1225-v: {'ili': 'i22685'}
+    ukrajinet-1229-n: {'ili': 'i91412'}
+    ukrajinet-1239-n: {'ili': 'i115511'}
+    ukrajinet-1242-n: {'ili': 'i115533'}
+    ukrajinet-1243-n: {'ili': 'i109353'}
+    ukrajinet-1247-n: {'ili': 'i113857'}
+    ukrajinet-1253-n: {'ili': 'i68050'}
+    ukrajinet-1255-n: {'ili': 'i90667'}
+    ukrajinet-1258-n: {'ili': 'i63752'}
+    ukrajinet-1259-n: {'ili': 'i98048'}
+    ukrajinet-1266-n: {'ili': 'i67616'}
+    ukrajinet-1267-n: {'ili': 'i61930'}
+    ukrajinet-1269-n: {'ili': 'i55169'}
+    ukrajinet-1270-n: {'ili': 'i62063'}
+    ukrajinet-1272-v: {'ili': 'i33982'}
+    ukrajinet-1283-n: {'ili': 'i67234'}
+    ukrajinet-1287-n: {'ili': 'i36235'}
+    ukrajinet-1298-n: {'ili': 'i71928'}
+    ukrajinet-1299-v: {'ili': 'i30400'}
+    ukrajinet-1300-n: {'ili': 'i107984'}
+    ukrajinet-1310-n: {'ili': 'i113631'}
+    ukrajinet-1315-n: {'ili': 'i59260'}
+    ukrajinet-1319-n: {'ili': 'i61776'}
+    ukrajinet-1322-n: {'ili': 'i51389'}
+    ukrajinet-1326-n: {'ili': 'i51377'}
+    ukrajinet-1328-v: {'ili': 'i24925'}
+    ukrajinet-1329-n: {'ili': 'i115608'}
+    ukrajinet-1335-n: {'ili': 'i41389'}
+    ukrajinet-1336-n: {'ili': 'i51346'}
+    ukrajinet-1337-n: {'ili': 'i115360'}
+    ukrajinet-1339-n: {'ili': 'i51480'}
+    ukrajinet-1340-n: {'ili': 'i97671'}
+    ukrajinet-1345-n: {'ili': 'i114800'}
+    ukrajinet-1349-n: {'ili': 'i30013'}
+    ukrajinet-1351-n: {'ili': 'i63058'}
+    ukrajinet-1352-n: {'ili': 'i56008'}
+    ukrajinet-1359-n: {'ili': 'i114375'}
+    ukrajinet-1361-n: {'ili': 'i36545'}
+    ukrajinet-1365-n: {'ili': 'i85177'}
+    ukrajinet-1366-n: {'ili': 'i51649'}
+    ukrajinet-1374-n: {'ili': 'i86030'}
+    ukrajinet-1380-n: {'ili': 'i115263'}
+    ukrajinet-1383-n: {'ili': 'i39628'}
+    ukrajinet-1384-n: {'ili': 'i37329'}
+    ukrajinet-1389-n: {'ili': 'i68749'}
+    ukrajinet-1390-n: {'ili': 'i68748'}
+    ukrajinet-1396-n: {'ili': 'i29140'}
+    ukrajinet-1398-n: {'ili': 'i61059'}
+    ukrajinet-1399-n: {'ili': 'i113304'}
+    ukrajinet-1400-n: {'ili': 'i52008'}
+    ukrajinet-1411-n: {'ili': 'i32292'}
+    ukrajinet-1412-n: {'ili': 'i97687'}
+    ukrajinet-1414-n: {'ili': 'i69882'}
+    ukrajinet-1415-n: {'ili': 'i38650'}
+    ukrajinet-1421-n: {'ili': 'i52169'}
+    ukrajinet-1423-n: {'ili': 'i52164'}
+    ukrajinet-1424-n: {'ili': 'i107801'}
+    ukrajinet-1425-n: {'ili': 'i52171'}
+    ukrajinet-1427-n: {'ili': 'i61623'}
+    ukrajinet-1431-n: {'ili': 'i66269'}
+    ukrajinet-1433-n: {'ili': 'i52177'}
+    ukrajinet-1441-n: {'ili': 'i85245'}
+    ukrajinet-1460-n: {'ili': 'i79315'}
+    ukrajinet-1463-n: {'ili': 'i52228'}
+    ukrajinet-1464-n: {'ili': 'i52236'}
+    ukrajinet-1471-n: {'ili': 'i107436'}
+    ukrajinet-1472-n: {'ili': 'i75678'}
+    ukrajinet-1477-n: {'ili': 'i51476'}
+    ukrajinet-1482-n: {'ili': 'i52256'}
+    ukrajinet-1485-n: {'ili': 'i62912'}
+    ukrajinet-1494-n: {'ili': 'i52294'}
+    ukrajinet-1496-n: {'ili': 'i116674'}
+    ukrajinet-1522-n: {'ili': 'i109975'}
+    ukrajinet-1529-n: {'ili': 'i63477'}
+    ukrajinet-1539-n: {'ili': 'i105836'}
+    ukrajinet-1546-n: {'ili': 'i109023'}
+    ukrajinet-1548-n: {'ili': 'i97710'}
+    ukrajinet-1558-n: {'ili': 'i68948'}
+    ukrajinet-1573-n: {'ili': 'i115285'}
+    ukrajinet-1577-n: {'ili': 'i97560'}
+    ukrajinet-1580-n: {'ili': 'i62935'}
+    ukrajinet-1590-n: {'ili': 'i86242'}
+    ukrajinet-1593-n: {'ili': 'i109902'}
+    ukrajinet-1596-n: {'ili': 'i108358'}
+    ukrajinet-1599-n: {'ili': 'i113573'}
+    ukrajinet-1610-n: {'ili': 'i55461'}
+    ukrajinet-1612-n: {'ili': 'i75620'}
+    ukrajinet-1613-n: {'ili': 'i55543'}
+    ukrajinet-1615-n: {'ili': 'i115923'}
+    ukrajinet-1620-n: {'ili': 'i51733'}
+    ukrajinet-1623-n: {'ili': 'i61158'}
+    ukrajinet-1628-n: {'ili': 'i85691'}
+    ukrajinet-1629-n: {'ili': 'i60877'}
+    ukrajinet-1632-n: {'ili': 'i105766'}
+    ukrajinet-1634-n: {'ili': 'i116615'}
+    ukrajinet-1635-n: {'ili': 'i36196'}
+    ukrajinet-1636-n: {'ili': 'i115475'}
+    ukrajinet-1637-n: {'ili': 'i87225'}
+    ukrajinet-1640-n: {'ili': 'i55697'}
+    ukrajinet-1642-n: {'ili': 'i65371'}
+    ukrajinet-1644-n: {'ili': 'i55628'}
+    ukrajinet-1645-n: {'ili': 'i58340'}
+    ukrajinet-1651-n: {'ili': 'i55751'}
+    ukrajinet-1654-n: {'ili': 'i53387'}
+    ukrajinet-1655-n: {'ili': 'i52418'}
+    ukrajinet-1658-n: {'ili': 'i68951'}
+    ukrajinet-1666-n: {'ili': 'i59216'}
+    ukrajinet-1676-n: {'ili': 'i97916'}
+    ukrajinet-1677-n: {'ili': 'i55932'}
+    ukrajinet-1679-n: {'ili': 'i68751'}
+    ukrajinet-1680-n: {'ili': 'i55931'}
+    ukrajinet-1683-n: {'ili': 'i60009'}
+    ukrajinet-1684-n: {'ili': 'i56035'}
+    ukrajinet-1686-n: {'ili': 'i56314'}
+    ukrajinet-1693-n: {'ili': 'i57660'}
+    ukrajinet-1696-n: {'ili': 'i63403'}
+    ukrajinet-1697-n: {'ili': 'i85754'}
+    ukrajinet-1704-n: {'ili': 'i85758'}
+    ukrajinet-1705-n: {'ili': 'i53925'}
+    ukrajinet-1706-n: {'ili': 'i55888'}
+    ukrajinet-1707-n: {'ili': 'i57115'}
+    ukrajinet-1708-n: {'ili': 'i85761'}
+    ukrajinet-1709-n: {'ili': 'i68434'}
+    ukrajinet-1713-n: {'ili': 'i85774'}
+    ukrajinet-1716-n: {'ili': 'i56130'}
+    ukrajinet-1717-n: {'ili': 'i64750'}
+    ukrajinet-1724-n: {'ili': 'i113678'}
+    ukrajinet-1727-n: {'ili': 'i68799'}
+    ukrajinet-1729-n: {'ili': 'i37518'}
+    ukrajinet-1730-n: {'ili': 'i114167'}
+    ukrajinet-1733-n: {'ili': 'i68768'}
+    ukrajinet-1736-n: {'ili': 'i109347'}
+    ukrajinet-1738-n: {'ili': 'i68690'}
+    ukrajinet-1741-n: {'ili': 'i66962'}
+    ukrajinet-1742-n: {'ili': 'i75119'}
+    ukrajinet-1745-n: {'ili': 'i56213'}
+    ukrajinet-1747-n: {'ili': 'i56217'}
+    ukrajinet-1750-n: {'ili': 'i55138'}
+    ukrajinet-1751-n: {'ili': 'i56215'}
+    ukrajinet-1752-n: {'ili': 'i97932'}
+    ukrajinet-1759-n: {'ili': 'i82175'}
+    ukrajinet-1761-n: {'ili': 'i74827'}
+    ukrajinet-1762-n: {'ili': 'i97944'}
+    ukrajinet-1767-n: {'ili': 'i61655'}
+    ukrajinet-1770-n: {'ili': 'i60017'}
+    ukrajinet-1774-n: {'ili': 'i109036'}
+    ukrajinet-1775-n: {'ili': 'i53610'}
+    ukrajinet-1776-v: {'ili': 'i30354'}
+    ukrajinet-1777-n: {'ili': 'i56316'}
+    ukrajinet-1790-n: {'ili': 'i114134'}
+    ukrajinet-1792-n: {'ili': 'i64948'}
+    ukrajinet-1794-n: {'ili': 'i108979'}
+    ukrajinet-1795-n: {'ili': 'i97936'}
+    ukrajinet-1809-n: {'ili': 'i56432'}
+    ukrajinet-1810-n: {'ili': 'i85828'}
+    ukrajinet-1811-v: {'ili': 'i28057'}
+    ukrajinet-1815-n: {'ili': 'i71425'}
+    ukrajinet-1823-v: {'ili': 'i25800'}
+    ukrajinet-1836-n: {'ili': 'i1081'}
+    ukrajinet-1837-v: {'ili': 'i33261'}
+    ukrajinet-1842-n: {'ili': 'i22725'}
+    ukrajinet-1845-n: {'ili': 'i107727'}
+    ukrajinet-1852-n: {'ili': 'i114930'}
+    ukrajinet-1857-n: {'ili': 'i97996'}
+    ukrajinet-1859-n: {'ili': 'i98111'}
+    ukrajinet-1860-n: {'ili': 'i63620'}
+    ukrajinet-1882-n: {'ili': 'i37339'}
+    ukrajinet-1883-n: {'ili': 'i68339'}
+    ukrajinet-1884-n: {'ili': 'i115868'}
+    ukrajinet-1888-n: {'ili': 'i41583'}
+    ukrajinet-1892-n: {'ili': 'i85861'}
+    ukrajinet-1894-n: {'ili': 'i62075'}
+    ukrajinet-1896-n: {'ili': 'i61774'}
+    ukrajinet-1898-n: {'ili': 'i62080'}
+    ukrajinet-1900-n: {'ili': 'i63882'}
+    ukrajinet-1911-n: {'ili': 'i60824'}
+    ukrajinet-1913-n: {'ili': 'i85889'}
+    ukrajinet-1917-n: {'ili': 'i37178'}
+    ukrajinet-1925-n: {'ili': 'i56678'}
+    ukrajinet-1935-n: {'ili': 'i55703'}
+    ukrajinet-1936-n: {'ili': 'i41511'}
+    ukrajinet-1938-n: {'ili': 'i85365'}
+    ukrajinet-1939-n: {'ili': 'i82092'}
+    ukrajinet-1944-n: {'ili': 'i56686'}
+    ukrajinet-1948-n: {'ili': 'i56689'}
+    ukrajinet-1954-n: {'ili': 'i109479'}
+    ukrajinet-1958-n: {'ili': 'i85647'}
+    ukrajinet-1967-n: {'ili': 'i115817'}
+    ukrajinet-1974-n: {'ili': 'i53545'}
+    ukrajinet-1977-n: {'ili': 'i108421'}
+    ukrajinet-1982-n: {'ili': 'i109354'}
+    ukrajinet-1986-n: {'ili': 'i58108'}
+    ukrajinet-1987-n: {'ili': 'i109733'}
+    ukrajinet-1988-n: {'ili': 'i88097'}
+    ukrajinet-1992-n: {'ili': 'i68692'}
+    ukrajinet-1996-n: {'ili': 'i82238'}
+    ukrajinet-2000-n: {'ili': 'i68043'}
+    ukrajinet-2001-n: {'ili': 'i109572'}
+    ukrajinet-2007-n: {'ili': 'i86151'}
+    ukrajinet-2009-n: {'ili': 'i107862'}
+    ukrajinet-2011-n: {'ili': 'i110420'}
+    ukrajinet-2012-n: {'ili': 'i114165'}
+    ukrajinet-2024-n: {'ili': 'i56793'}
+    ukrajinet-2026-n: {'ili': 'i56791'}
+    ukrajinet-2027-n: {'ili': 'i75292'}
+    ukrajinet-2030-n: {'ili': 'i82005'}
+    ukrajinet-2031-n: {'ili': 'i35816'}
+    ukrajinet-2034-n: {'ili': 'i116156'}
+    ukrajinet-2035-n: {'ili': 'i107439'}
+    ukrajinet-2042-n: {'ili': 'i115239'}
+    ukrajinet-2053-n: {'ili': 'i109876'}
+    ukrajinet-2060-n: {'ili': 'i116529'}
+    ukrajinet-2063-n: {'ili': 'i59523'}
+    ukrajinet-2066-n: {'ili': 'i62774'}
+    ukrajinet-2070-n: {'ili': 'i59173'}
+    ukrajinet-2077-n: {'ili': 'i57141'}
+    ukrajinet-2078-v: {'ili': 'i34858'}
+    ukrajinet-2079-n: {'ili': 'i37190'}
+    ukrajinet-2087-n: {'ili': 'i115865'}
+    ukrajinet-2091-n: {'ili': 'i55307'}
+    ukrajinet-2111-n: {'ili': 'i75366'}
+    ukrajinet-2114-v: {'ili': 'i23647'}
+    ukrajinet-2120-n: {'ili': 'i82276'}
+    ukrajinet-2121-n: {'ili': 'i82277'}
+    ukrajinet-2123-n: {'ili': 'i110006'}
+    ukrajinet-2130-a: {'ili': 'i6748'}
+    ukrajinet-2165-n: {'ili': 'i85410'}
+    ukrajinet-2169-n: {'ili': 'i57816'}
+    ukrajinet-2173-n: {'ili': 'i112152'}
+    ukrajinet-2180-n: {'ili': 'i113102'}
+    ukrajinet-2182-n: {'ili': 'i82460'}
+    ukrajinet-2183-n: {'ili': 'i113706'}
+    ukrajinet-2185-n: {'ili': 'i63390'}
+    ukrajinet-2186-n: {'ili': 'i51947'}
+    ukrajinet-2189-n: {'ili': 'i53699'}
+    ukrajinet-2193-n: {'ili': 'i109765'}
+    ukrajinet-2195-n: {'ili': 'i9996'}
+    ukrajinet-2200-n: {'ili': 'i81774'}
+    ukrajinet-2201-n: {'ili': 'i75118'}
+    ukrajinet-2213-n: {'ili': 'i107518'}
+    ukrajinet-2217-n: {'ili': 'i35586'}
+    ukrajinet-2219-n: {'ili': 'i53391'}
+    ukrajinet-2241-n: {'ili': 'i115940'}
+    ukrajinet-2246-n: {'ili': 'i97994'}
+    ukrajinet-2250-v: {'ili': 'i38435'}
+    ukrajinet-2263-n: {'ili': 'i62242'}
+    ukrajinet-2268-n: {'ili': 'i52529'}
+    ukrajinet-2270-n: {'ili': 'i62939'}
+    ukrajinet-2271-n: {'ili': 'i110007'}
+    ukrajinet-2272-v: {'ili': 'i30504'}
+    ukrajinet-2274-n: {'ili': 'i55695'}
+    ukrajinet-2279-v: {'ili': 'i26697'}
+    ukrajinet-2280-v: {'ili': 'i23685'}
+    ukrajinet-2281-n: {'ili': 'i81509'}
+    ukrajinet-2287-n: {'ili': 'i57601'}
+    ukrajinet-2290-n: {'ili': 'i97773'}
+    ukrajinet-2294-n: {'ili': 'i63736'}
+    ukrajinet-2303-n: {'ili': 'i56696'}
+    ukrajinet-2311-n: {'ili': 'i57650'}
+    ukrajinet-2313-n: {'ili': 'i41993'}
+    ukrajinet-2315-n: {'ili': 'i53177'}
+    ukrajinet-2319-n: {'ili': 'i93453'}
+    ukrajinet-2332-v: {'ili': 'i24998'}
+    ukrajinet-2334-n: {'ili': 'i63591'}
+    ukrajinet-2362-n: {'ili': 'i75838'}
+    ukrajinet-2382-n: {'ili': 'i97640'}
+    ukrajinet-2384-n: {'ili': 'i62941'}
+    ukrajinet-2386-n: {'ili': 'i109514'}
+    ukrajinet-2387-n: {'ili': 'i109506'}
+    ukrajinet-2388-n: {'ili': 'i92313'}
+    ukrajinet-2394-n: {'ili': 'i36636'}
+    ukrajinet-2402-n: {'ili': 'i50056'}
+    ukrajinet-2410-n: {'ili': 'i68038'}
+    ukrajinet-2414-n: {'ili': 'i75109'}
+    ukrajinet-2420-n: {'ili': 'i57744'}
+    ukrajinet-2422-n: {'ili': 'i41182'}
+    ukrajinet-2423-n: {'ili': 'i86023'}
+    ukrajinet-2429-n: {'ili': 'i109882'}
+    ukrajinet-2431-n: {'ili': 'i92417'}
+    ukrajinet-2433-n: {'ili': 'i57889'}
+    ukrajinet-2436-n: {'ili': 'i107891'}
+    ukrajinet-2446-n: {'ili': 'i57911'}
+    ukrajinet-2448-n: {'ili': 'i57906'}
+    ukrajinet-2449-n: {'ili': 'i71274'}
+    ukrajinet-2454-n: {'ili': 'i67700'}
+    ukrajinet-2456-n: {'ili': 'i58225'}
+    ukrajinet-2458-v: {'ili': 'i24087'}
+    ukrajinet-2459-n: {'ili': 'i62152'}
+    ukrajinet-2463-n: {'ili': 'i51116'}
+    ukrajinet-2467-n: {'ili': 'i53301'}
+    ukrajinet-2468-n: {'ili': 'i63334'}
+    ukrajinet-2478-n: {'ili': 'i39644'}
+    ukrajinet-2480-n: {'ili': 'i58036'}
+    ukrajinet-2484-n: {'ili': 'i97910'}
+    ukrajinet-2487-n: {'ili': 'i58109'}
+    ukrajinet-2488-n: {'ili': 'i15211'}
+    ukrajinet-2496-n: {'ili': 'i76251'}
+    ukrajinet-2498-n: {'ili': 'i105473'}
+    ukrajinet-2501-n: {'ili': 'i74491'}
+    ukrajinet-2506-n: {'ili': 'i35567'}
+    ukrajinet-2509-n: {'ili': 'i86178'}
+    ukrajinet-2512-v: {'ili': 'i35387'}
+    ukrajinet-2517-n: {'ili': 'i115633'}
+    ukrajinet-2520-n: {'ili': 'i61770'}
+    ukrajinet-2528-n: {'ili': 'i97775'}
+    ukrajinet-2532-v: {'ili': 'i30023'}
+    ukrajinet-2534-n: {'ili': 'i58072'}
+    ukrajinet-2535-n: {'ili': 'i40375'}
+    ukrajinet-2540-n: {'ili': 'i98058'}
+    ukrajinet-2541-n: {'ili': 'i63374'}
+    ukrajinet-2545-n: {'ili': 'i107464'}
+    ukrajinet-2547-v: {'ili': 'i32442'}
+    ukrajinet-2554-n: {'ili': 'i61778'}
+    ukrajinet-2563-n: {'ili': 'i67012'}
+    ukrajinet-2564-n: {'ili': 'i52996'}
+    ukrajinet-2584-n: {'ili': 'i113687'}
+    ukrajinet-2585-n: {'ili': 'i108082'}
+    ukrajinet-2597-n: {'ili': 'i58236'}
+    ukrajinet-2598-n: {'ili': 'i109891'}
+    ukrajinet-2603-n: {'ili': 'i56262'}
+    ukrajinet-2605-n: {'ili': 'i54932'}
+    ukrajinet-2607-n: {'ili': 'i70156'}
+    ukrajinet-2608-n: {'ili': 'i60004'}
+    ukrajinet-2609-n: {'ili': 'i58234'}
+    ukrajinet-2611-v: {'ili': 'i30898'}
+    ukrajinet-2619-n: {'ili': 'i97859'}
+    ukrajinet-2640-n: {'ili': 'i55683'}
+    ukrajinet-2642-n: {'ili': 'i55686'}
+    ukrajinet-2644-n: {'ili': 'i51431'}
+    ukrajinet-2648-n: {'ili': 'i97736'}
+    ukrajinet-2655-n: {'ili': 'i58649'}
+    ukrajinet-2666-n: {'ili': 'i71109'}
+    ukrajinet-2669-n: {'ili': 'i58930'}
+    ukrajinet-2672-n: {'ili': 'i97803'}
+    ukrajinet-2684-n: {'ili': 'i63611'}
+    ukrajinet-2692-n: {'ili': 'i79243'}
+    ukrajinet-2702-n: {'ili': 'i93510'}
+    ukrajinet-2706-n: {'ili': 'i40641'}
+    ukrajinet-2707-n: {'ili': 'i109676'}
+    ukrajinet-2710-n: {'ili': 'i54910'}
+    ukrajinet-2711-n: {'ili': 'i113729'}
+    ukrajinet-2714-n: {'ili': 'i43025'}
+    ukrajinet-2722-v: {'ili': 'i29197'}
+    ukrajinet-2726-n: {'ili': 'i58532'}
+    ukrajinet-2727-n: {'ili': 'i115274'}
+    ukrajinet-2731-v: {'ili': 'i23870'}
+    ukrajinet-2737-n: {'ili': 'i59063'}
+    ukrajinet-2751-n: {'ili': 'i86273'}
+    ukrajinet-2752-n: {'ili': 'i117222'}
+    ukrajinet-2753-n: {'ili': 'i56650'}
+    ukrajinet-2757-n: {'ili': 'i97601'}
+    ukrajinet-2758-n: {'ili': 'i59289'}
+    ukrajinet-2762-n: {'ili': 'i38839'}
+    ukrajinet-2780-n: {'ili': 'i109848'}
+    ukrajinet-2788-n: {'ili': 'i114921'}
+    ukrajinet-2789-v: {'ili': 'i23707'}
+    ukrajinet-2791-n: {'ili': 'i61975'}
+    ukrajinet-2793-n: {'ili': 'i62886'}
+    ukrajinet-2794-n: {'ili': 'i66882'}
+    ukrajinet-2799-n: {'ili': 'i113359'}
+    ukrajinet-2801-n: {'ili': 'i64313'}
+    ukrajinet-2806-n: {'ili': 'i59428'}
+    ukrajinet-2807-n: {'ili': 'i41474'}
+    ukrajinet-2810-n: {'ili': 'i62539'}
+    ukrajinet-2811-v: {'ili': 'i34806'}
+    ukrajinet-2814-n: {'ili': 'i108091'}
+    ukrajinet-2816-n: {'ili': 'i114826'}
+    ukrajinet-2818-n: {'ili': 'i67968'}
+    ukrajinet-2820-n: {'ili': 'i59500'}
+    ukrajinet-2821-n: {'ili': 'i68746'}
+    ukrajinet-2831-n: {'ili': 'i58230'}
+    ukrajinet-2834-n: {'ili': 'i36064'}
+    ukrajinet-2836-v: {'ili': 'i28661'}
+    ukrajinet-2840-n: {'ili': 'i75121'}
+    ukrajinet-2842-n: {'ili': 'i60931'}
+    ukrajinet-2848-n: {'ili': 'i107979'}
+    ukrajinet-2852-n: {'ili': 'i98115'}
+    ukrajinet-2857-n: {'ili': 'i62902'}
+    ukrajinet-2859-n: {'ili': 'i97727'}
+    ukrajinet-2869-n: {'ili': 'i82462'}
+    ukrajinet-2879-n: {'ili': 'i68718'}
+    ukrajinet-2883-n: {'ili': 'i113696'}
+    ukrajinet-2887-n: {'ili': 'i107474'}
+    ukrajinet-2902-v: {'ili': 'i31583'}
+    ukrajinet-2905-v: {'ili': 'i35510'}
+    ukrajinet-2907-n: {'ili': 'i68909'}
+    ukrajinet-2908-n: {'ili': 'i72558'}
+    ukrajinet-2912-n: {'ili': 'i59943'}
+    ukrajinet-2917-n: {'ili': 'i62926'}
+    ukrajinet-2921-n: {'ili': 'i62975'}
+    ukrajinet-2925-n: {'ili': 'i60080'}
+    ukrajinet-2926-n: {'ili': 'i60065'}
+    ukrajinet-2931-n: {'ili': 'i67695'}
+    ukrajinet-2933-n: {'ili': 'i68297'}
+    ukrajinet-2934-n: {'ili': 'i54431'}
+    ukrajinet-2940-n: {'ili': 'i54743'}
+    ukrajinet-2942-n: {'ili': 'i76412'}
+    ukrajinet-2952-n: {'ili': 'i60172'}
+    ukrajinet-2956-n: {'ili': 'i68754'}
+    ukrajinet-2961-n: {'ili': 'i60180'}
+    ukrajinet-2962-n: {'ili': 'i39175'}
+    ukrajinet-2964-n: {'ili': 'i110070'}
+    ukrajinet-2965-n: {'ili': 'i60158'}
+    ukrajinet-2975-n: {'ili': 'i98002'}
+    ukrajinet-2976-n: {'ili': 'i63478'}
+    ukrajinet-2980-n: {'ili': 'i63817'}
+    ukrajinet-2981-n: {'ili': 'i62182'}
+    ukrajinet-2982-n: {'ili': 'i66966'}
+    ukrajinet-2987-n: {'ili': 'i68789'}
+    ukrajinet-2988-n: {'ili': 'i67019'}
+    ukrajinet-2997-n: {'ili': 'i97926'}
+    ukrajinet-2999-n: {'ili': 'i60477'}
+    ukrajinet-3002-n: {'ili': 'i109351'}
+    ukrajinet-3006-n: {'ili': 'i60476'}
+    ukrajinet-3009-n: {'ili': 'i60497'}
+    ukrajinet-3012-n: {'ili': 'i63542'}
+    ukrajinet-3020-n: {'ili': 'i109864'}
+    ukrajinet-3029-n: {'ili': 'i60559'}
+    ukrajinet-3030-n: {'ili': 'i85276'}
+    ukrajinet-3037-n: {'ili': 'i97801'}
+    ukrajinet-3038-n: {'ili': 'i85849'}
+    ukrajinet-3047-n: {'ili': 'i97630'}
+    ukrajinet-3055-n: {'ili': 'i85424'}
+    ukrajinet-3060-n: {'ili': 'i62058'}
+    ukrajinet-3072-v: {'ili': 'i30030'}
+    ukrajinet-3080-n: {'ili': 'i113098'}
+    ukrajinet-3081-n: {'ili': 'i117601'}
+    ukrajinet-3084-n: {'ili': 'i59902'}
+    ukrajinet-3086-n: {'ili': 'i98083'}
+    ukrajinet-3090-n: {'ili': 'i67665'}
+    ukrajinet-3103-n: {'ili': 'i97920'}
+    ukrajinet-3104-n: {'ili': 'i60607'}
+    ukrajinet-3105-n: {'ili': 'i114448'}
+    ukrajinet-3106-n: {'ili': 'i85387'}
+    ukrajinet-3113-n: {'ili': 'i109776'}
+    ukrajinet-3115-n: {'ili': 'i68670'}
+    ukrajinet-3120-n: {'ili': 'i53808'}
+    ukrajinet-3123-n: {'ili': 'i110688'}
+    ukrajinet-3127-n: {'ili': 'i62083'}
+    ukrajinet-3130-n: {'ili': 'i114096'}
+    ukrajinet-3131-n: {'ili': 'i61050'}
+    ukrajinet-3132-n: {'ili': 'i53913'}
+    ukrajinet-3135-n: {'ili': 'i66888'}
+    ukrajinet-3137-n: {'ili': 'i53933'}
+    ukrajinet-3147-n: {'ili': 'i71875'}
+    ukrajinet-3156-n: {'ili': 'i57210'}
+    ukrajinet-3157-n: {'ili': 'i97559'}
+    ukrajinet-3163-n: {'ili': 'i57217'}
+    ukrajinet-3168-n: {'ili': 'i97556'}
+    ukrajinet-3178-n: {'ili': 'i73489'}
+    ukrajinet-3188-n: {'ili': 'i109330'}
+    ukrajinet-3193-n: {'ili': 'i113205'}
+    ukrajinet-3198-n: {'ili': 'i75294'}
+    ukrajinet-3205-n: {'ili': 'i107411'}
+    ukrajinet-3214-n: {'ili': 'i115998'}
+    ukrajinet-3219-n: {'ili': 'i107415'}
+    ukrajinet-3226-n: {'ili': 'i60281'}
+    ukrajinet-3228-n: {'ili': 'i81508'}
+    ukrajinet-3230-n: {'ili': 'i114779'}
+    ukrajinet-3239-n: {'ili': 'i51713'}
+    ukrajinet-3243-n: {'ili': 'i75270'}
+    ukrajinet-3248-n: {'ili': 'i110033'}
+    ukrajinet-3250-n: {'ili': 'i52666'}
+    ukrajinet-3253-n: {'ili': 'i52225'}
+    ukrajinet-3256-n: {'ili': 'i106762'}
+    ukrajinet-3260-n: {'ili': 'i61661'}
+    ukrajinet-3262-n: {'ili': 'i116736'}
+    ukrajinet-3264-n: {'ili': 'i85947'}
+    ukrajinet-3270-n: {'ili': 'i117538'}
+    ukrajinet-3272-n: {'ili': 'i109059'}
+    ukrajinet-3273-n: {'ili': 'i61270'}
+    ukrajinet-3277-n: {'ili': 'i108079'}
+    ukrajinet-3283-n: {'ili': 'i109863'}
+    ukrajinet-3289-n: {'ili': 'i66316'}
+    ukrajinet-3291-n: {'ili': 'i117563'}
+    ukrajinet-3294-n: {'ili': 'i109883'}
+    ukrajinet-3297-n: {'ili': 'i58556'}
+    ukrajinet-3300-n: {'ili': 'i109712'}
+    ukrajinet-3304-v: {'ili': 'i29876'}
+    ukrajinet-3317-n: {'ili': 'i72214'}
+    ukrajinet-3319-n: {'ili': 'i18153'}
+    ukrajinet-3323-n: {'ili': 'i58886'}
+    ukrajinet-3324-n: {'ili': 'i66075'}
+    ukrajinet-3325-n: {'ili': 'i103612'}
+    ukrajinet-3332-n: {'ili': 'i35595'}
+    ukrajinet-3336-n: {'ili': 'i85890'}
+    ukrajinet-3337-n: {'ili': 'i50003'}
+    ukrajinet-3342-n: {'ili': 'i60253'}
+    ukrajinet-3343-n: {'ili': 'i63372'}
+    ukrajinet-3346-n: {'ili': 'i97809'}
+    ukrajinet-3359-n: {'ili': 'i52820'}
+    ukrajinet-3376-n: {'ili': 'i55838'}
+    ukrajinet-3383-n: {'ili': 'i80581'}
+    ukrajinet-3389-n: {'ili': 'i68757'}
+    ukrajinet-3395-n: {'ili': 'i68433'}
+    ukrajinet-3403-n: {'ili': 'i56705'}
+    ukrajinet-3414-n: {'ili': 'i85987'}
+    ukrajinet-3415-n: {'ili': 'i97986'}
+    ukrajinet-3421-n: {'ili': 'i57502'}
+    ukrajinet-3426-n: {'ili': 'i110536'}
+    ukrajinet-3427-n: {'ili': 'i109328'}
+    ukrajinet-3431-n: {'ili': 'i63383'}
+    ukrajinet-3433-n: {'ili': 'i115235'}
+    ukrajinet-3434-n: {'ili': 'i57900'}
+    ukrajinet-3437-n: {'ili': 'i57909'}
+    ukrajinet-3438-n: {'ili': 'i98025'}
+    ukrajinet-3439-n: {'ili': 'i107857'}
+    ukrajinet-3441-n: {'ili': 'i107912'}
+    ukrajinet-3444-n: {'ili': 'i58048'}
+    ukrajinet-3445-n: {'ili': 'i117116'}
+    ukrajinet-3448-n: {'ili': 'i116246'}
+    ukrajinet-3450-n: {'ili': 'i116023'}
+    ukrajinet-3452-n: {'ili': 'i117299'}
+    ukrajinet-3454-n: {'ili': 'i108209'}
+    ukrajinet-3460-n: {'ili': 'i107959'}
+    ukrajinet-3463-n: {'ili': 'i62929'}
+    ukrajinet-3464-n: {'ili': 'i59689'}
+    ukrajinet-3465-n: {'ili': 'i86267'}
+    ukrajinet-3466-n: {'ili': 'i97844'}
+    ukrajinet-3467-n: {'ili': 'i69608'}
+    ukrajinet-3471-n: {'ili': 'i23959'}
+    ukrajinet-3472-n: {'ili': 'i98146'}
+    ukrajinet-3475-n: {'ili': 'i97921'}
+    ukrajinet-3481-n: {'ili': 'i40656'}
+    ukrajinet-3482-n: {'ili': 'i85970'}
+    ukrajinet-3483-n: {'ili': 'i107847'}
+    ukrajinet-3484-n: {'ili': 'i85971'}
+    ukrajinet-3485-n: {'ili': 'i85226'}
+    ukrajinet-3488-n: {'ili': 'i81839'}
+    ukrajinet-3489-n: {'ili': 'i113313'}
+    ukrajinet-3496-n: {'ili': 'i110394'}
+    ukrajinet-3497-n: {'ili': 'i40650'}
+    ukrajinet-3499-n: {'ili': 'i85530'}
+    ukrajinet-3500-n: {'ili': 'i75416'}
+    ukrajinet-3501-n: {'ili': 'i75254'}
+    ukrajinet-3503-n: {'ili': 'i110102'}
+    ukrajinet-3504-n: {'ili': 'i67587'}
+    ukrajinet-3505-n: {'ili': 'i85285'}
+    ukrajinet-3506-n: {'ili': 'i67729'}
+    ukrajinet-3508-n: {'ili': 'i23654'}
+    ukrajinet-3510-n: {'ili': 'i41292'}
+    ukrajinet-3511-n: {'ili': 'i108490'}
+    ukrajinet-3512-n: {'ili': 'i109204'}
+    ukrajinet-3513-n: {'ili': 'i35594'}
+    ukrajinet-3514-n: {'ili': 'i56098'}
+    ukrajinet-3516-n: {'ili': 'i56101'}
+    ukrajinet-3517-n: {'ili': 'i79330'}
+    ukrajinet-3518-n: {'ili': 'i67800'}
+    ukrajinet-3519-n: {'ili': 'i117356'}
+    ukrajinet-3520-n: {'ili': 'i117370'}
+    ukrajinet-3521-n: {'ili': 'i68427'}
+    ukrajinet-3522-n: {'ili': 'i52071'}
+    ukrajinet-3523-n: {'ili': 'i39691'}
+    ukrajinet-3524-v: {'ili': 'i29064'}
+    ukrajinet-3529-n: {'ili': 'i107868'}
+    ukrajinet-3532-n: {'ili': 'i109093'}
+    ukrajinet-3533-n: {'ili': 'i108085'}
+    ukrajinet-3535-n: {'ili': 'i52168'}
+    ukrajinet-3536-n: {'ili': 'i36812'}
+    ukrajinet-3538-n: {'ili': 'i53701'}
+    ukrajinet-3540-n: {'ili': 'i63513'}
+    ukrajinet-3542-n: {'ili': 'i109507'}
+    ukrajinet-3548-n: {'ili': 'i107577'}
+    ukrajinet-3550-n: {'ili': 'i70158'}
+    ukrajinet-3551-v: {'ili': 'i21839'}
+    ukrajinet-3552-v: {'ili': 'i30886'}
+    ukrajinet-3556-n: {'ili': 'i59910'}
+    ukrajinet-3557-v: {'ili': 'i29030'}
+    ukrajinet-3559-n: {'ili': 'i116277'}
+    ukrajinet-3560-n: {'ili': 'i42049'}
+    ukrajinet-3564-v: {'ili': 'i28654'}
+    ukrajinet-3565-v: {'ili': 'i28854'}
+    ukrajinet-3566-v: {'ili': 'i28966'}
+    ukrajinet-3567-n: {'ili': 'i60930'}
+    ukrajinet-3568-n: {'ili': 'i86406'}
+    ukrajinet-3570-n: {'ili': 'i56967'}
+    ukrajinet-3571-n: {'ili': 'i98117'}
+    ukrajinet-3575-v: {'ili': 'i35500'}
+    ukrajinet-3576-v: {'ili': 'i30876'}
+    ukrajinet-3578-n: {'ili': 'i37247'}
+    ukrajinet-3580-n: {'ili': 'i62434'}
+    ukrajinet-3581-n: {'ili': 'i107313'}
+    ukrajinet-3583-n: {'ili': 'i63340'}
+    ukrajinet-3584-n: {'ili': 'i68415'}
+    ukrajinet-3585-n: {'ili': 'i62245'}
+    ukrajinet-3589-n: {'ili': 'i37412'}
+    ukrajinet-3591-n: {'ili': 'i38319'}
+    ukrajinet-3592-n: {'ili': 'i37383'}
+    ukrajinet-3594-n: {'ili': 'i67711'}
+    ukrajinet-3595-n: {'ili': 'i117298'}
+    ukrajinet-3596-n: {'ili': 'i117247'}
+    ukrajinet-3603-n: {'ili': 'i107284'}
+    ukrajinet-3607-n: {'ili': 'i37496'}
+    ukrajinet-3608-n: {'ili': 'i113219'}
+    ukrajinet-3609-n: {'ili': 'i75057'}
+    ukrajinet-3610-n: {'ili': 'i76036'}
+    ukrajinet-3613-n: {'ili': 'i107308'}
+    ukrajinet-3614-n: {'ili': 'i74252'}
+    ukrajinet-3616-n: {'ili': 'i40695'}
+    ukrajinet-3617-n: {'ili': 'i79173'}
+    ukrajinet-3620-n: {'ili': 'i67264'}
+    ukrajinet-3625-n: {'ili': 'i80179'}
+    ukrajinet-3627-n: {'ili': 'i64390'}
+    ukrajinet-3628-n: {'ili': 'i107345'}
+    ukrajinet-3629-n: {'ili': 'i107344'}
+    ukrajinet-3632-n: {'ili': 'i67187'}
+    ukrajinet-3640-n: {'ili': 'i37075'}
+    ukrajinet-3641-n: {'ili': 'i52280'}
+    ukrajinet-3645-n: {'ili': 'i50502'}
+    ukrajinet-3646-n: {'ili': 'i50501'}
+    ukrajinet-3650-n: {'ili': 'i36385'}
+    ukrajinet-3652-v: {'ili': 'i35027'}
+    ukrajinet-3653-v: {'ili': 'i33058'}
+    ukrajinet-3658-n: {'ili': 'i114236'}
+    ukrajinet-3659-n: {'ili': 'i81364'}
+    ukrajinet-3664-n: {'ili': 'i66821'}
+    ukrajinet-3688-v: {'ili': 'i32778'}
+    ukrajinet-3692-v: {'ili': 'i32134'}
+    ukrajinet-3700-v: {'ili': 'i32124'}
+    ukrajinet-3702-v: {'ili': 'i24531'}
+    ukrajinet-3703-v: {'ili': 'i32785'}
+    ukrajinet-3705-v: {'ili': 'i28864'}
+    ukrajinet-3714-v: {'ili': 'i34943'}
+    ukrajinet-3716-v: {'ili': 'i35426'}
+    ukrajinet-3722-v: {'ili': 'i34713'}
+    ukrajinet-3739-n: {'ili': 'i58289'}
+    ukrajinet-3741-n: {'ili': 'i36749'}
+    ukrajinet-3743-n: {'ili': 'i50550'}
+    ukrajinet-3744-n: {'ili': 'i67528'}
+    ukrajinet-3747-n: {'ili': 'i37372'}
+    ukrajinet-3748-n: {'ili': 'i37097'}
+    ukrajinet-3749-n: {'ili': 'i37105'}
+    ukrajinet-3752-n: {'ili': 'i41312'}
+    ukrajinet-3754-v: {'ili': 'i24051'}
+    ukrajinet-3759-v: {'ili': 'i29852'}
+    ukrajinet-3765-n: {'ili': 'i75847'}
+    ukrajinet-3769-n: {'ili': 'i110202'}
+    ukrajinet-3812-n: {'ili': 'i37465'}
+    ukrajinet-3813-v: {'ili': 'i30985'}
+    ukrajinet-3827-n: {'ili': 'i107537'}
+    ukrajinet-3828-n: {'ili': 'i115114'}
+    ukrajinet-3843-n: {'ili': 'i36210'}
+    ukrajinet-3844-n: {'ili': 'i57457'}
+    ukrajinet-3847-n: {'ili': 'i53987'}
+    ukrajinet-3849-v: {'ili': 'i34801'}
+    ukrajinet-3857-n: {'ili': 'i98000'}
+    ukrajinet-3866-n: {'ili': 'i75642'}
+    ukrajinet-4292-n: {'ili': 'i66821'}
+    ukrajinet-4354-n: {'ili': 'i66882'}
+    ukrajinet-4360-n: {'ili': 'i66888'}
+    ukrajinet-4434-n: {'ili': 'i66962'}
+    ukrajinet-4438-n: {'ili': 'i66966'}
+    ukrajinet-4439-n: {'ili': 'i66967'}
+    ukrajinet-4484-n: {'ili': 'i67012'}
+    ukrajinet-4491-n: {'ili': 'i67019'}
+    ukrajinet-4583-n: {'ili': 'i67111'}
+    ukrajinet-4631-n: {'ili': 'i67159'}
+    ukrajinet-4659-n: {'ili': 'i67187'}
+    ukrajinet-4699-n: {'ili': 'i67227'}
+    ukrajinet-4706-n: {'ili': 'i67234'}
+    ukrajinet-4736-n: {'ili': 'i67264'}
+    ukrajinet-4740-n: {'ili': 'i67268'}
+    ukrajinet-4789-n: {'ili': 'i67317'}
+    ukrajinet-4947-n: {'ili': 'i67474'}
+    ukrajinet-5001-n: {'ili': 'i67528'}
+    ukrajinet-5061-n: {'ili': 'i67587'}
+    ukrajinet-5090-n: {'ili': 'i67616'}
+    ukrajinet-5114-n: {'ili': 'i67640'}
+    ukrajinet-5127-n: {'ili': 'i67653'}
+    ukrajinet-5138-n: {'ili': 'i67664'}
+    ukrajinet-5139-n: {'ili': 'i67665'}
+    ukrajinet-5169-n: {'ili': 'i67695'}
+    ukrajinet-5174-n: {'ili': 'i67700'}
+    ukrajinet-5180-n: {'ili': 'i67706'}
+    ukrajinet-5185-n: {'ili': 'i67711'}
+    ukrajinet-5203-n: {'ili': 'i67729'}
+    ukrajinet-5209-n: {'ili': 'i67735'}
+    ukrajinet-5274-n: {'ili': 'i67800'}
+    ukrajinet-5442-n: {'ili': 'i67968'}
+    ukrajinet-5444-n: {'ili': 'i67970'}
+    ukrajinet-5506-n: {'ili': 'i68032'}
+    ukrajinet-5512-n: {'ili': 'i68038'}
+    ukrajinet-5517-n: {'ili': 'i68043'}
+    ukrajinet-5524-n: {'ili': 'i68050'}
+    ukrajinet-5680-n: {'ili': 'i68205'}
+    ukrajinet-5772-n: {'ili': 'i68297'}
+    ukrajinet-5815-n: {'ili': 'i68339'}
+    ukrajinet-5856-n: {'ili': 'i68380'}
+    ukrajinet-5864-n: {'ili': 'i68388'}
+    ukrajinet-5891-n: {'ili': 'i68415'}
+    ukrajinet-5902-n: {'ili': 'i68426'}
+    ukrajinet-5903-n: {'ili': 'i68427'}
+    ukrajinet-5909-n: {'ili': 'i68433'}
+    ukrajinet-5910-n: {'ili': 'i68434'}
+    ukrajinet-5971-n: {'ili': 'i68494'}
+    ukrajinet-6147-n: {'ili': 'i68670'}
+    ukrajinet-6149-n: {'ili': 'i68672'}
+    ukrajinet-6150-n: {'ili': 'i68673'}
+    ukrajinet-6152-n: {'ili': 'i68675'}
+    ukrajinet-6154-n: {'ili': 'i68677'}
+    ukrajinet-6167-n: {'ili': 'i68690'}
+    ukrajinet-6169-n: {'ili': 'i68692'}
+    ukrajinet-6171-n: {'ili': 'i68694'}
+    ukrajinet-6195-n: {'ili': 'i68718'}
+    ukrajinet-6221-n: {'ili': 'i68744'}
+    ukrajinet-6223-n: {'ili': 'i68746'}
+    ukrajinet-6224-n: {'ili': 'i68747'}
+    ukrajinet-6225-n: {'ili': 'i68748'}
+    ukrajinet-6226-n: {'ili': 'i68749'}
+    ukrajinet-6227-n: {'ili': 'i68750'}
+    ukrajinet-6228-n: {'ili': 'i68751'}
+    ukrajinet-6229-n: {'ili': 'i68752'}
+    ukrajinet-6231-n: {'ili': 'i68754'}
+    ukrajinet-6234-n: {'ili': 'i68757'}
+    ukrajinet-6241-n: {'ili': 'i68764'}
+    ukrajinet-6245-n: {'ili': 'i68768'}
+    ukrajinet-6246-n: {'ili': 'i68769'}
+    ukrajinet-6257-n: {'ili': 'i68780'}
+    ukrajinet-6266-n: {'ili': 'i68789'}
+    ukrajinet-6275-n: {'ili': 'i68799'}
+    ukrajinet-6385-n: {'ili': 'i68909'}
+    ukrajinet-6426-n: {'ili': 'i68948'}
+    ukrajinet-6429-n: {'ili': 'i68951'}
+    ukrajinet-6470-n: {'ili': 'i68992'}
+    ukrajinet-6524-n: {'ili': 'i69046'}
+    ukrajinet-12437-n: {'ili': 'i103612'}
+    ukrajinet-14298-n: {'ili': 'i105473'}
+    ukrajinet-14591-n: {'ili': 'i105766'}
+    ukrajinet-14662-n: {'ili': 'i105836'}
+    ukrajinet-15438-v: {'ili': 'i33982'}
+    ukrajinet-16196-v: {'ili': 'i32778'}
+    ukrajinet-16203-v: {'ili': 'i32785'}
+    ukrajinet-16476-v: {'ili': 'i33058'}
+    ukrajinet-16678-v: {'ili': 'i33261'}
+    ukrajinet-18736-r: {'ili': 'i19881'}
+    ukrajinet-19471-r: {'ili': 'i20614'}
+    ukrajinet-20647-v: {'ili': 'i34708'}
+    ukrajinet-20652-v: {'ili': 'i34713'}
+    ukrajinet-20733-v: {'ili': 'i34794'}
+    ukrajinet-20740-v: {'ili': 'i34801'}
+    ukrajinet-20745-v: {'ili': 'i34806'}
+    ukrajinet-20797-v: {'ili': 'i34858'}
+    ukrajinet-20882-v: {'ili': 'i34943'}
+    ukrajinet-20965-v: {'ili': 'i35027'}
+    ukrajinet-21325-v: {'ili': 'i35387'}
+    ukrajinet-21332-v: {'ili': 'i35394'}
+    ukrajinet-21364-v: {'ili': 'i35426'}
+    ukrajinet-21695-n: {'ili': 'i106508'}
+    ukrajinet-21949-n: {'ili': 'i106762'}
+    ukrajinet-22148-n: {'ili': 'i106960'}
+    ukrajinet-22624-n: {'ili': 'i110202'}
+    ukrajinet-22631-n: {'ili': 'i110209'}
+    ukrajinet-22817-n: {'ili': 'i110394'}
+    ukrajinet-22843-n: {'ili': 'i110420'}
+    ukrajinet-22886-n: {'ili': 'i110463'}
+    ukrajinet-22959-n: {'ili': 'i110536'}
+    ukrajinet-23111-n: {'ili': 'i110688'}
+    ukrajinet-23138-n: {'ili': 'i110715'}
+    ukrajinet-24575-n: {'ili': 'i112152'}
+    ukrajinet-25199-n: {'ili': 'i112776'}
+    ukrajinet-25208-n: {'ili': 'i112785'}
+    ukrajinet-25522-n: {'ili': 'i113098'}
+    ukrajinet-25526-n: {'ili': 'i113102'}
+    ukrajinet-25629-n: {'ili': 'i113205'}
+    ukrajinet-25643-n: {'ili': 'i113219'}
+    ukrajinet-25655-n: {'ili': 'i113231'}
+    ukrajinet-25728-n: {'ili': 'i113304'}
+    ukrajinet-25737-n: {'ili': 'i113313'}
+    ukrajinet-25783-n: {'ili': 'i113359'}
+    ukrajinet-25907-n: {'ili': 'i113483'}
+    ukrajinet-25997-n: {'ili': 'i113573'}
+    ukrajinet-26007-n: {'ili': 'i113583'}
+    ukrajinet-26055-n: {'ili': 'i113631'}
+    ukrajinet-26152-n: {'ili': 'i49785'}
+    ukrajinet-26155-n: {'ili': 'i49788'}
+    ukrajinet-26164-n: {'ili': 'i49795'}
+    ukrajinet-26301-n: {'ili': 'i49932'}
+    ukrajinet-26321-n: {'ili': 'i49952'}
+    ukrajinet-26368-n: {'ili': 'i49999'}
+    ukrajinet-26372-n: {'ili': 'i50003'}
+    ukrajinet-26379-n: {'ili': 'i50010'}
+    ukrajinet-26405-n: {'ili': 'i50036'}
+    ukrajinet-26410-n: {'ili': 'i50041'}
+    ukrajinet-26425-n: {'ili': 'i50056'}
+    ukrajinet-26461-n: {'ili': 'i50092'}
+    ukrajinet-26466-n: {'ili': 'i50097'}
+    ukrajinet-26617-n: {'ili': 'i50248'}
+    ukrajinet-26674-n: {'ili': 'i50305'}
+    ukrajinet-26747-n: {'ili': 'i50378'}
+    ukrajinet-26761-n: {'ili': 'i50392'}
+    ukrajinet-26848-n: {'ili': 'i50479'}
+    ukrajinet-26864-n: {'ili': 'i50494'}
+    ukrajinet-26871-n: {'ili': 'i50501'}
+    ukrajinet-26872-n: {'ili': 'i50502'}
+    ukrajinet-26920-n: {'ili': 'i50550'}
+    ukrajinet-26934-n: {'ili': 'i50564'}
+    ukrajinet-26936-n: {'ili': 'i50566'}
+    ukrajinet-26948-n: {'ili': 'i50578'}
+    ukrajinet-27091-n: {'ili': 'i50721'}
+    ukrajinet-27149-n: {'ili': 'i50779'}
+    ukrajinet-27295-n: {'ili': 'i50925'}
+    ukrajinet-27485-n: {'ili': 'i51116'}
+    ukrajinet-27581-n: {'ili': 'i51212'}
+    ukrajinet-27590-n: {'ili': 'i51221'}
+    ukrajinet-27715-n: {'ili': 'i51346'}
+    ukrajinet-27746-n: {'ili': 'i51377'}
+    ukrajinet-27758-n: {'ili': 'i51389'}
+    ukrajinet-27800-n: {'ili': 'i51431'}
+    ukrajinet-27845-n: {'ili': 'i51476'}
+    ukrajinet-27849-n: {'ili': 'i51480'}
+    ukrajinet-28018-n: {'ili': 'i51649'}
+    ukrajinet-28082-n: {'ili': 'i51713'}
+    ukrajinet-28096-n: {'ili': 'i51727'}
+    ukrajinet-28102-n: {'ili': 'i51733'}
+    ukrajinet-28291-n: {'ili': 'i51922'}
+    ukrajinet-28317-n: {'ili': 'i51947'}
+    ukrajinet-28378-n: {'ili': 'i52008'}
+    ukrajinet-28441-n: {'ili': 'i52071'}
+    ukrajinet-28534-n: {'ili': 'i52164'}
+    ukrajinet-28538-n: {'ili': 'i52168'}
+    ukrajinet-28539-n: {'ili': 'i52169'}
+    ukrajinet-28541-n: {'ili': 'i52171'}
+    ukrajinet-28547-n: {'ili': 'i52177'}
+    ukrajinet-28595-n: {'ili': 'i52225'}
+    ukrajinet-28598-n: {'ili': 'i52228'}
+    ukrajinet-28606-n: {'ili': 'i52236'}
+    ukrajinet-28629-n: {'ili': 'i52256'}
+    ukrajinet-28653-n: {'ili': 'i52280'}
+    ukrajinet-28668-n: {'ili': 'i52294'}
+    ukrajinet-28792-n: {'ili': 'i52418'}
+    ukrajinet-28903-n: {'ili': 'i52529'}
+    ukrajinet-29007-n: {'ili': 'i52633'}
+    ukrajinet-29040-n: {'ili': 'i52666'}
+    ukrajinet-29071-n: {'ili': 'i52697'}
+    ukrajinet-29125-n: {'ili': 'i52751'}
+    ukrajinet-29160-n: {'ili': 'i52786'}
+    ukrajinet-29194-n: {'ili': 'i52820'}
+    ukrajinet-29311-n: {'ili': 'i52937'}
+    ukrajinet-29359-n: {'ili': 'i52985'}
+    ukrajinet-29370-n: {'ili': 'i52996'}
+    ukrajinet-29445-n: {'ili': 'i53071'}
+    ukrajinet-29551-n: {'ili': 'i53177'}
+    ukrajinet-29583-n: {'ili': 'i53209'}
+    ukrajinet-29671-n: {'ili': 'i53296'}
+    ukrajinet-29676-n: {'ili': 'i53301'}
+    ukrajinet-29724-n: {'ili': 'i53349'}
+    ukrajinet-29742-n: {'ili': 'i53367'}
+    ukrajinet-29762-n: {'ili': 'i53387'}
+    ukrajinet-29766-n: {'ili': 'i53391'}
+    ukrajinet-29776-n: {'ili': 'i53401'}
+    ukrajinet-29826-n: {'ili': 'i53451'}
+    ukrajinet-29920-n: {'ili': 'i53545'}
+    ukrajinet-29985-n: {'ili': 'i53610'}
+    ukrajinet-30074-n: {'ili': 'i53699'}
+    ukrajinet-30076-n: {'ili': 'i53701'}
+    ukrajinet-30084-n: {'ili': 'i53709'}
+    ukrajinet-30182-n: {'ili': 'i53808'}
+    ukrajinet-30287-n: {'ili': 'i53913'}
+    ukrajinet-30299-n: {'ili': 'i53925'}
+    ukrajinet-30307-n: {'ili': 'i53933'}
+    ukrajinet-30361-n: {'ili': 'i53987'}
+    ukrajinet-30529-n: {'ili': 'i54154'}
+    ukrajinet-30614-n: {'ili': 'i54239'}
+    ukrajinet-30738-n: {'ili': 'i54363'}
+    ukrajinet-30778-n: {'ili': 'i54403'}
+    ukrajinet-30789-n: {'ili': 'i54414'}
+    ukrajinet-30806-n: {'ili': 'i54431'}
+    ukrajinet-30907-n: {'ili': 'i54531'}
+    ukrajinet-31119-n: {'ili': 'i54743'}
+    ukrajinet-31140-n: {'ili': 'i54764'}
+    ukrajinet-31230-n: {'ili': 'i54854'}
+    ukrajinet-31261-n: {'ili': 'i54885'}
+    ukrajinet-31262-n: {'ili': 'i54886'}
+    ukrajinet-31277-n: {'ili': 'i54901'}
+    ukrajinet-31286-n: {'ili': 'i54910'}
+    ukrajinet-31308-n: {'ili': 'i54932'}
+    ukrajinet-31384-n: {'ili': 'i55008'}
+    ukrajinet-31389-n: {'ili': 'i55013'}
+    ukrajinet-31506-n: {'ili': 'i55130'}
+    ukrajinet-31514-n: {'ili': 'i55138'}
+    ukrajinet-31545-n: {'ili': 'i55169'}
+    ukrajinet-31683-n: {'ili': 'i55307'}
+    ukrajinet-31837-n: {'ili': 'i55461'}
+    ukrajinet-31919-n: {'ili': 'i55543'}
+    ukrajinet-32004-n: {'ili': 'i55628'}
+    ukrajinet-32016-n: {'ili': 'i55640'}
+    ukrajinet-32018-n: {'ili': 'i55642'}
+    ukrajinet-32059-n: {'ili': 'i55683'}
+    ukrajinet-32062-n: {'ili': 'i55686'}
+    ukrajinet-32068-n: {'ili': 'i55692'}
+    ukrajinet-32071-n: {'ili': 'i55695'}
+    ukrajinet-32073-n: {'ili': 'i55697'}
+    ukrajinet-32079-n: {'ili': 'i55703'}
+    ukrajinet-32127-n: {'ili': 'i55751'}
+    ukrajinet-32137-n: {'ili': 'i55761'}
+    ukrajinet-32214-n: {'ili': 'i55838'}
+    ukrajinet-32264-n: {'ili': 'i55888'}
+    ukrajinet-32308-n: {'ili': 'i55931'}
+    ukrajinet-32309-n: {'ili': 'i55932'}
+    ukrajinet-32385-n: {'ili': 'i56008'}
+    ukrajinet-32412-n: {'ili': 'i56035'}
+    ukrajinet-32475-n: {'ili': 'i56098'}
+    ukrajinet-32477-n: {'ili': 'i56100'}
+    ukrajinet-32478-n: {'ili': 'i56101'}
+    ukrajinet-32507-n: {'ili': 'i56130'}
+    ukrajinet-32590-n: {'ili': 'i56213'}
+    ukrajinet-32592-n: {'ili': 'i56215'}
+    ukrajinet-32594-n: {'ili': 'i56217'}
+    ukrajinet-32639-n: {'ili': 'i56262'}
+    ukrajinet-32691-n: {'ili': 'i56314'}
+    ukrajinet-32693-n: {'ili': 'i56316'}
+    ukrajinet-32809-n: {'ili': 'i56432'}
+    ukrajinet-33027-n: {'ili': 'i56650'}
+    ukrajinet-33055-n: {'ili': 'i56678'}
+    ukrajinet-33063-n: {'ili': 'i56686'}
+    ukrajinet-33066-n: {'ili': 'i56689'}
+    ukrajinet-33073-n: {'ili': 'i56696'}
+    ukrajinet-33082-n: {'ili': 'i56705'}
+    ukrajinet-33168-n: {'ili': 'i56791'}
+    ukrajinet-33170-n: {'ili': 'i56793'}
+    ukrajinet-33345-n: {'ili': 'i56967'}
+    ukrajinet-33495-n: {'ili': 'i57115'}
+    ukrajinet-33521-n: {'ili': 'i57141'}
+    ukrajinet-33590-n: {'ili': 'i57210'}
+    ukrajinet-33598-n: {'ili': 'i57217'}
+    ukrajinet-33779-n: {'ili': 'i57398'}
+    ukrajinet-33837-n: {'ili': 'i57456'}
+    ukrajinet-33838-n: {'ili': 'i57457'}
+    ukrajinet-33883-n: {'ili': 'i57502'}
+    ukrajinet-33982-n: {'ili': 'i57601'}
+    ukrajinet-34031-n: {'ili': 'i57650'}
+    ukrajinet-34041-n: {'ili': 'i57660'}
+    ukrajinet-34125-n: {'ili': 'i57744'}
+    ukrajinet-34138-n: {'ili': 'i57757'}
+    ukrajinet-34197-n: {'ili': 'i57816'}
+    ukrajinet-34270-n: {'ili': 'i57889'}
+    ukrajinet-34284-n: {'ili': 'i57900'}
+    ukrajinet-34290-n: {'ili': 'i57906'}
+    ukrajinet-34293-n: {'ili': 'i57909'}
+    ukrajinet-34295-n: {'ili': 'i57911'}
+    ukrajinet-34321-n: {'ili': 'i57937'}
+    ukrajinet-34333-n: {'ili': 'i57949'}
+    ukrajinet-34412-n: {'ili': 'i58028'}
+    ukrajinet-34420-n: {'ili': 'i58036'}
+    ukrajinet-34432-n: {'ili': 'i58048'}
+    ukrajinet-34435-n: {'ili': 'i58051'}
+    ukrajinet-34441-n: {'ili': 'i58057'}
+    ukrajinet-34456-n: {'ili': 'i58072'}
+    ukrajinet-34492-n: {'ili': 'i58108'}
+    ukrajinet-34493-n: {'ili': 'i58109'}
+    ukrajinet-34609-n: {'ili': 'i58225'}
+    ukrajinet-34614-n: {'ili': 'i58230'}
+    ukrajinet-34618-n: {'ili': 'i58234'}
+    ukrajinet-34620-n: {'ili': 'i58236'}
+    ukrajinet-34673-n: {'ili': 'i58289'}
+    ukrajinet-34724-n: {'ili': 'i58340'}
+    ukrajinet-34916-n: {'ili': 'i58532'}
+    ukrajinet-34940-n: {'ili': 'i58556'}
+    ukrajinet-35033-n: {'ili': 'i58649'}
+    ukrajinet-35200-n: {'ili': 'i58816'}
+    ukrajinet-35270-n: {'ili': 'i58886'}
+    ukrajinet-35314-n: {'ili': 'i58930'}
+    ukrajinet-35447-n: {'ili': 'i59063'}
+    ukrajinet-35557-n: {'ili': 'i59173'}
+    ukrajinet-35600-n: {'ili': 'i59216'}
+    ukrajinet-35644-n: {'ili': 'i59260'}
+    ukrajinet-35673-n: {'ili': 'i59289'}
+    ukrajinet-35812-n: {'ili': 'i59428'}
+    ukrajinet-35884-n: {'ili': 'i59500'}
+    ukrajinet-35907-n: {'ili': 'i59523'}
+    ukrajinet-36073-n: {'ili': 'i59689'}
+    ukrajinet-36271-n: {'ili': 'i59887'}
+    ukrajinet-36286-n: {'ili': 'i59902'}
+    ukrajinet-36291-n: {'ili': 'i59907'}
+    ukrajinet-36294-n: {'ili': 'i59910'}
+    ukrajinet-36327-n: {'ili': 'i59943'}
+    ukrajinet-36388-n: {'ili': 'i60004'}
+    ukrajinet-36393-n: {'ili': 'i60009'}
+    ukrajinet-36401-n: {'ili': 'i60017'}
+    ukrajinet-36449-n: {'ili': 'i60065'}
+    ukrajinet-36464-n: {'ili': 'i60080'}
+    ukrajinet-36541-n: {'ili': 'i60158'}
+    ukrajinet-36555-n: {'ili': 'i60172'}
+    ukrajinet-36563-n: {'ili': 'i60180'}
+    ukrajinet-36636-n: {'ili': 'i60253'}
+    ukrajinet-36664-n: {'ili': 'i60281'}
+    ukrajinet-36860-n: {'ili': 'i60476'}
+    ukrajinet-36861-n: {'ili': 'i60477'}
+    ukrajinet-36881-n: {'ili': 'i60497'}
+    ukrajinet-36943-n: {'ili': 'i60559'}
+    ukrajinet-36991-n: {'ili': 'i60607'}
+    ukrajinet-37161-n: {'ili': 'i60777'}
+    ukrajinet-37166-n: {'ili': 'i60782'}
+    ukrajinet-37196-n: {'ili': 'i60812'}
+    ukrajinet-37208-n: {'ili': 'i60824'}
+    ukrajinet-37227-n: {'ili': 'i60843'}
+    ukrajinet-37261-n: {'ili': 'i60877'}
+    ukrajinet-37278-n: {'ili': 'i60894'}
+    ukrajinet-37314-n: {'ili': 'i60930'}
+    ukrajinet-37315-n: {'ili': 'i60931'}
+    ukrajinet-37416-n: {'ili': 'i61032'}
+    ukrajinet-37434-n: {'ili': 'i61050'}
+    ukrajinet-37443-n: {'ili': 'i61059'}
+    ukrajinet-37542-n: {'ili': 'i61158'}
+    ukrajinet-37654-n: {'ili': 'i61270'}
+    ukrajinet-39042-n: {'ili': 'i43025'}
+    ukrajinet-46182-v: {'ili': 'i25800'}
+    ukrajinet-46596-v: {'ili': 'i26213'}
+    ukrajinet-46605-v: {'ili': 'i26222'}
+    ukrajinet-46983-v: {'ili': 'i26600'}
+    ukrajinet-47080-v: {'ili': 'i26697'}
+    ukrajinet-47349-v: {'ili': 'i30886'}
+    ukrajinet-47361-v: {'ili': 'i30898'}
+    ukrajinet-47448-v: {'ili': 'i30985'}
+    ukrajinet-47613-v: {'ili': 'i31150'}
+    ukrajinet-48047-v: {'ili': 'i31583'}
+    ukrajinet-48589-v: {'ili': 'i32124'}
+    ukrajinet-48599-v: {'ili': 'i32134'}
+    ukrajinet-48713-v: {'ili': 'i32248'}
+    ukrajinet-48757-v: {'ili': 'i32292'}
+    ukrajinet-48766-n: {'ili': 'i79047'}
+    ukrajinet-48837-n: {'ili': 'i79117'}
+    ukrajinet-48893-n: {'ili': 'i79173'}
+    ukrajinet-48962-n: {'ili': 'i79243'}
+    ukrajinet-49034-n: {'ili': 'i79315'}
+    ukrajinet-49049-n: {'ili': 'i79330'}
+    ukrajinet-49232-n: {'ili': 'i79512'}
+    ukrajinet-49898-n: {'ili': 'i80179'}
+    ukrajinet-50300-n: {'ili': 'i80581'}
+    ukrajinet-51083-n: {'ili': 'i81364'}
+    ukrajinet-51227-n: {'ili': 'i81508'}
+    ukrajinet-51228-n: {'ili': 'i81509'}
+    ukrajinet-51514-n: {'ili': 'i81700'}
+    ukrajinet-51533-n: {'ili': 'i81719'}
+    ukrajinet-51588-n: {'ili': 'i81774'}
+    ukrajinet-51654-n: {'ili': 'i81839'}
+    ukrajinet-51820-n: {'ili': 'i82005'}
+    ukrajinet-51827-n: {'ili': 'i82012'}
+    ukrajinet-51861-n: {'ili': 'i82046'}
+    ukrajinet-51907-n: {'ili': 'i82092'}
+    ukrajinet-51990-n: {'ili': 'i82175'}
+    ukrajinet-52053-n: {'ili': 'i82238'}
+    ukrajinet-52089-n: {'ili': 'i82274'}
+    ukrajinet-52091-n: {'ili': 'i82276'}
+    ukrajinet-52092-n: {'ili': 'i82277'}
+    ukrajinet-52274-n: {'ili': 'i82460'}
+    ukrajinet-52276-n: {'ili': 'i82462'}
+    ukrajinet-52357-n: {'ili': 'i82542'}
+    ukrajinet-52364-n: {'ili': 'i82549'}
+    ukrajinet-54752-n: {'ili': 'i35567'}
+    ukrajinet-54771-n: {'ili': 'i35586'}
+    ukrajinet-54779-n: {'ili': 'i35594'}
+    ukrajinet-54780-n: {'ili': 'i35595'}
+    ukrajinet-54789-n: {'ili': 'i109328'}
+    ukrajinet-54791-n: {'ili': 'i109330'}
+    ukrajinet-54808-n: {'ili': 'i109347'}
+    ukrajinet-54812-n: {'ili': 'i109351'}
+    ukrajinet-54814-n: {'ili': 'i109353'}
+    ukrajinet-54815-n: {'ili': 'i109354'}
+    ukrajinet-54940-n: {'ili': 'i109479'}
+    ukrajinet-54967-n: {'ili': 'i109506'}
+    ukrajinet-54968-n: {'ili': 'i109507'}
+    ukrajinet-54975-n: {'ili': 'i109514'}
+    ukrajinet-54976-n: {'ili': 'i109515'}
+    ukrajinet-54989-n: {'ili': 'i109528'}
+    ukrajinet-55033-n: {'ili': 'i109572'}
+    ukrajinet-55041-n: {'ili': 'i109580'}
+    ukrajinet-55132-n: {'ili': 'i109671'}
+    ukrajinet-55137-n: {'ili': 'i109676'}
+    ukrajinet-55173-n: {'ili': 'i109712'}
+    ukrajinet-55194-n: {'ili': 'i109733'}
+    ukrajinet-55257-n: {'ili': 'i113662'}
+    ukrajinet-55259-n: {'ili': 'i113664'}
+    ukrajinet-55273-n: {'ili': 'i113678'}
+    ukrajinet-55282-n: {'ili': 'i113687'}
+    ukrajinet-55291-n: {'ili': 'i113696'}
+    ukrajinet-55301-n: {'ili': 'i113706'}
+    ukrajinet-55321-n: {'ili': 'i113726'}
+    ukrajinet-55324-n: {'ili': 'i113729'}
+    ukrajinet-55329-n: {'ili': 'i113734'}
+    ukrajinet-55334-n: {'ili': 'i113739'}
+    ukrajinet-55335-n: {'ili': 'i113740'}
+    ukrajinet-55451-n: {'ili': 'i113856'}
+    ukrajinet-55452-n: {'ili': 'i113857'}
+    ukrajinet-55687-n: {'ili': 'i114092'}
+    ukrajinet-55691-n: {'ili': 'i114096'}
+    ukrajinet-55729-n: {'ili': 'i114134'}
+    ukrajinet-55760-n: {'ili': 'i114165'}
+    ukrajinet-55762-n: {'ili': 'i114167'}
+    ukrajinet-55829-n: {'ili': 'i114234'}
+    ukrajinet-55831-n: {'ili': 'i114236'}
+    ukrajinet-55887-n: {'ili': 'i114292'}
+    ukrajinet-55907-n: {'ili': 'i114312'}
+    ukrajinet-55927-n: {'ili': 'i114332'}
+    ukrajinet-55930-n: {'ili': 'i114335'}
+    ukrajinet-55970-n: {'ili': 'i114375'}
+    ukrajinet-55971-n: {'ili': 'i114376'}
+    ukrajinet-56043-n: {'ili': 'i114448'}
+    ukrajinet-56206-n: {'ili': 'i114611'}
+    ukrajinet-56260-n: {'ili': 'i114665'}
+    ukrajinet-56278-n: {'ili': 'i114683'}
+    ukrajinet-56374-n: {'ili': 'i114779'}
+    ukrajinet-56386-n: {'ili': 'i114791'}
+    ukrajinet-56395-n: {'ili': 'i114800'}
+    ukrajinet-56399-n: {'ili': 'i114804'}
+    ukrajinet-56421-n: {'ili': 'i114826'}
+    ukrajinet-56516-n: {'ili': 'i114921'}
+    ukrajinet-56525-n: {'ili': 'i114930'}
+    ukrajinet-56617-n: {'ili': 'i115022'}
+    ukrajinet-56651-n: {'ili': 'i115056'}
+    ukrajinet-56664-n: {'ili': 'i115069'}
+    ukrajinet-56679-n: {'ili': 'i115084'}
+    ukrajinet-56709-n: {'ili': 'i115114'}
+    ukrajinet-56830-n: {'ili': 'i115235'}
+    ukrajinet-56834-n: {'ili': 'i115239'}
+    ukrajinet-56858-n: {'ili': 'i115263'}
+    ukrajinet-56869-n: {'ili': 'i115274'}
+    ukrajinet-56880-n: {'ili': 'i115285'}
+    ukrajinet-56955-n: {'ili': 'i115360'}
+    ukrajinet-57006-n: {'ili': 'i115411'}
+    ukrajinet-57070-n: {'ili': 'i115475'}
+    ukrajinet-57106-n: {'ili': 'i115511'}
+    ukrajinet-57128-n: {'ili': 'i115533'}
+    ukrajinet-57203-n: {'ili': 'i115608'}
+    ukrajinet-57204-n: {'ili': 'i115609'}
+    ukrajinet-57228-n: {'ili': 'i115633'}
+    ukrajinet-57348-n: {'ili': 'i115754'}
+    ukrajinet-57413-n: {'ili': 'i115817'}
+    ukrajinet-57461-n: {'ili': 'i115865'}
+    ukrajinet-57464-n: {'ili': 'i115868'}
+    ukrajinet-57491-n: {'ili': 'i115895'}
+    ukrajinet-57519-n: {'ili': 'i115923'}
+    ukrajinet-57536-n: {'ili': 'i115940'}
+    ukrajinet-57594-n: {'ili': 'i115998'}
+    ukrajinet-57619-n: {'ili': 'i116023'}
+    ukrajinet-57645-n: {'ili': 'i116049'}
+    ukrajinet-57725-n: {'ili': 'i116129'}
+    ukrajinet-57752-n: {'ili': 'i116156'}
+    ukrajinet-57842-n: {'ili': 'i116246'}
+    ukrajinet-57873-n: {'ili': 'i116277'}
+    ukrajinet-58048-n: {'ili': 'i116452'}
+    ukrajinet-58125-n: {'ili': 'i116529'}
+    ukrajinet-58211-n: {'ili': 'i116615'}
+    ukrajinet-58393-n: {'ili': 'i64390'}
+    ukrajinet-58754-n: {'ili': 'i64750'}
+    ukrajinet-58921-n: {'ili': 'i64917'}
+    ukrajinet-58952-n: {'ili': 'i64948'}
+    ukrajinet-59374-n: {'ili': 'i65371'}
+    ukrajinet-60079-n: {'ili': 'i66075'}
+    ukrajinet-60273-n: {'ili': 'i66269'}
+    ukrajinet-60321-n: {'ili': 'i66316'}
+    ukrajinet-60461-v: {'ili': 'i27693'}
+    ukrajinet-60825-v: {'ili': 'i28057'}
+    ukrajinet-61177-v: {'ili': 'i28409'}
+    ukrajinet-61422-v: {'ili': 'i28654'}
+    ukrajinet-61429-v: {'ili': 'i28661'}
+    ukrajinet-61622-v: {'ili': 'i28854'}
+    ukrajinet-61632-v: {'ili': 'i28864'}
+    ukrajinet-61734-v: {'ili': 'i28966'}
+    ukrajinet-61798-v: {'ili': 'i29030'}
+    ukrajinet-61829-v: {'ili': 'i29061'}
+    ukrajinet-61832-v: {'ili': 'i29064'}
+    ukrajinet-61907-v: {'ili': 'i29140'}
+    ukrajinet-61964-v: {'ili': 'i29197'}
+    ukrajinet-62524-v: {'ili': 'i29756'}
+    ukrajinet-62641-n: {'ili': 'i69374'}
+    ukrajinet-62876-n: {'ili': 'i69608'}
+    ukrajinet-63152-n: {'ili': 'i69882'}
+    ukrajinet-63427-n: {'ili': 'i70156'}
+    ukrajinet-63429-n: {'ili': 'i70158'}
+    ukrajinet-63880-n: {'ili': 'i70607'}
+    ukrajinet-64277-n: {'ili': 'i71003'}
+    ukrajinet-64384-n: {'ili': 'i71109'}
+    ukrajinet-64551-n: {'ili': 'i71274'}
+    ukrajinet-64703-n: {'ili': 'i71425'}
+    ukrajinet-65154-n: {'ili': 'i71875'}
+    ukrajinet-65207-n: {'ili': 'i71928'}
+    ukrajinet-65261-n: {'ili': 'i71982'}
+    ukrajinet-65413-n: {'ili': 'i72134'}
+    ukrajinet-65493-n: {'ili': 'i72214'}
+    ukrajinet-65658-n: {'ili': 'i72378'}
+    ukrajinet-65838-n: {'ili': 'i72558'}
+    ukrajinet-66730-n: {'ili': 'i73452'}
+    ukrajinet-66769-n: {'ili': 'i73489'}
+    ukrajinet-66776-n: {'ili': 'i73496'}
+    ukrajinet-67537-n: {'ili': 'i74252'}
+    ukrajinet-67579-n: {'ili': 'i74294'}
+    ukrajinet-67776-n: {'ili': 'i74491'}
+    ukrajinet-68112-n: {'ili': 'i74827'}
+    ukrajinet-68822-n: {'ili': 'i61623'}
+    ukrajinet-68854-n: {'ili': 'i61655'}
+    ukrajinet-68860-n: {'ili': 'i61661'}
+    ukrajinet-68969-n: {'ili': 'i61770'}
+    ukrajinet-68973-n: {'ili': 'i61774'}
+    ukrajinet-68975-n: {'ili': 'i61776'}
+    ukrajinet-68977-n: {'ili': 'i61778'}
+    ukrajinet-69117-n: {'ili': 'i61918'}
+    ukrajinet-69127-n: {'ili': 'i61928'}
+    ukrajinet-69129-n: {'ili': 'i61930'}
+    ukrajinet-69174-n: {'ili': 'i61975'}
+    ukrajinet-69186-n: {'ili': 'i61987'}
+    ukrajinet-69257-n: {'ili': 'i62058'}
+    ukrajinet-69262-n: {'ili': 'i62063'}
+    ukrajinet-69273-n: {'ili': 'i62074'}
+    ukrajinet-69274-n: {'ili': 'i62075'}
+    ukrajinet-69279-n: {'ili': 'i62080'}
+    ukrajinet-69282-n: {'ili': 'i62083'}
+    ukrajinet-69293-n: {'ili': 'i62094'}
+    ukrajinet-69341-n: {'ili': 'i62142'}
+    ukrajinet-69351-n: {'ili': 'i62152'}
+    ukrajinet-69381-n: {'ili': 'i62182'}
+    ukrajinet-69441-n: {'ili': 'i62242'}
+    ukrajinet-69444-n: {'ili': 'i62245'}
+    ukrajinet-69542-n: {'ili': 'i62343'}
+    ukrajinet-69633-n: {'ili': 'i62434'}
+    ukrajinet-69738-n: {'ili': 'i62539'}
+    ukrajinet-69973-n: {'ili': 'i62774'}
+    ukrajinet-70025-n: {'ili': 'i62826'}
+    ukrajinet-70085-n: {'ili': 'i62886'}
+    ukrajinet-70101-n: {'ili': 'i62902'}
+    ukrajinet-70111-n: {'ili': 'i62912'}
+    ukrajinet-70115-n: {'ili': 'i62916'}
+    ukrajinet-70125-n: {'ili': 'i62926'}
+    ukrajinet-70128-n: {'ili': 'i62929'}
+    ukrajinet-70134-n: {'ili': 'i62935'}
+    ukrajinet-70138-n: {'ili': 'i62939'}
+    ukrajinet-70140-n: {'ili': 'i62941'}
+    ukrajinet-70174-n: {'ili': 'i62975'}
+    ukrajinet-70205-n: {'ili': 'i63006'}
+    ukrajinet-70207-n: {'ili': 'i63008'}
+    ukrajinet-70232-n: {'ili': 'i63033'}
+    ukrajinet-70257-n: {'ili': 'i63058'}
+    ukrajinet-70527-n: {'ili': 'i63329'}
+    ukrajinet-70532-n: {'ili': 'i63334'}
+    ukrajinet-70535-n: {'ili': 'i63337'}
+    ukrajinet-70538-n: {'ili': 'i63340'}
+    ukrajinet-70539-n: {'ili': 'i63341'}
+    ukrajinet-70567-n: {'ili': 'i63369'}
+    ukrajinet-70570-n: {'ili': 'i63372'}
+    ukrajinet-70572-n: {'ili': 'i63374'}
+    ukrajinet-70581-n: {'ili': 'i63383'}
+    ukrajinet-70588-n: {'ili': 'i63390'}
+    ukrajinet-70601-n: {'ili': 'i63403'}
+    ukrajinet-70615-n: {'ili': 'i63417'}
+    ukrajinet-70657-n: {'ili': 'i63459'}
+    ukrajinet-70675-n: {'ili': 'i63477'}
+    ukrajinet-70676-n: {'ili': 'i63478'}
+    ukrajinet-70711-n: {'ili': 'i63513'}
+    ukrajinet-70740-n: {'ili': 'i63542'}
+    ukrajinet-70751-n: {'ili': 'i63553'}
+    ukrajinet-70789-n: {'ili': 'i63591'}
+    ukrajinet-70809-n: {'ili': 'i63611'}
+    ukrajinet-70818-n: {'ili': 'i63620'}
+    ukrajinet-70934-n: {'ili': 'i63736'}
+    ukrajinet-70949-n: {'ili': 'i63751'}
+    ukrajinet-70950-n: {'ili': 'i63752'}
+    ukrajinet-71015-n: {'ili': 'i63817'}
+    ukrajinet-71045-n: {'ili': 'i63847'}
+    ukrajinet-71080-n: {'ili': 'i63882'}
+    ukrajinet-71116-n: {'ili': 'i63918'}
+    ukrajinet-71183-n: {'ili': 'i63985'}
+    ukrajinet-71510-n: {'ili': 'i64313'}
+    ukrajinet-71899-n: {'ili': 'i108079'}
+    ukrajinet-71902-n: {'ili': 'i108082'}
+    ukrajinet-71905-n: {'ili': 'i108085'}
+    ukrajinet-71911-n: {'ili': 'i108091'}
+    ukrajinet-72014-n: {'ili': 'i108194'}
+    ukrajinet-72029-n: {'ili': 'i108209'}
+    ukrajinet-72115-n: {'ili': 'i108295'}
+    ukrajinet-72178-n: {'ili': 'i108358'}
+    ukrajinet-72183-n: {'ili': 'i108363'}
+    ukrajinet-72191-n: {'ili': 'i108371'}
+    ukrajinet-72242-n: {'ili': 'i108421'}
+    ukrajinet-72311-n: {'ili': 'i108490'}
+    ukrajinet-72800-n: {'ili': 'i108979'}
+    ukrajinet-72844-n: {'ili': 'i109023'}
+    ukrajinet-72857-n: {'ili': 'i109036'}
+    ukrajinet-72880-n: {'ili': 'i109059'}
+    ukrajinet-72914-n: {'ili': 'i109093'}
+    ukrajinet-73025-n: {'ili': 'i109204'}
+    ukrajinet-73216-n: {'ili': 'i97554'}
+    ukrajinet-73218-n: {'ili': 'i97556'}
+    ukrajinet-73221-n: {'ili': 'i97559'}
+    ukrajinet-73222-n: {'ili': 'i97560'}
+    ukrajinet-73240-n: {'ili': 'i97578'}
+    ukrajinet-73260-n: {'ili': 'i97598'}
+    ukrajinet-73263-n: {'ili': 'i97601'}
+    ukrajinet-73271-n: {'ili': 'i97609'}
+    ukrajinet-73272-n: {'ili': 'i97610'}
+    ukrajinet-73292-n: {'ili': 'i97630'}
+    ukrajinet-73302-n: {'ili': 'i97640'}
+    ukrajinet-73307-n: {'ili': 'i97645'}
+    ukrajinet-73331-n: {'ili': 'i97669'}
+    ukrajinet-73333-n: {'ili': 'i97671'}
+    ukrajinet-73340-n: {'ili': 'i97678'}
+    ukrajinet-73349-n: {'ili': 'i97687'}
+    ukrajinet-73372-n: {'ili': 'i97710'}
+    ukrajinet-73389-n: {'ili': 'i97727'}
+    ukrajinet-73398-n: {'ili': 'i97736'}
+    ukrajinet-73406-n: {'ili': 'i97744'}
+    ukrajinet-73434-n: {'ili': 'i97771'}
+    ukrajinet-73436-n: {'ili': 'i97773'}
+    ukrajinet-73438-n: {'ili': 'i97775'}
+    ukrajinet-73464-n: {'ili': 'i97801'}
+    ukrajinet-73466-n: {'ili': 'i97803'}
+    ukrajinet-73472-n: {'ili': 'i97809'}
+    ukrajinet-73487-n: {'ili': 'i97824'}
+    ukrajinet-73507-n: {'ili': 'i97844'}
+    ukrajinet-73514-n: {'ili': 'i97851'}
+    ukrajinet-73515-n: {'ili': 'i97852'}
+    ukrajinet-73521-n: {'ili': 'i97858'}
+    ukrajinet-73522-n: {'ili': 'i97859'}
+    ukrajinet-73559-n: {'ili': 'i97896'}
+    ukrajinet-73573-n: {'ili': 'i97910'}
+    ukrajinet-73579-n: {'ili': 'i97916'}
+    ukrajinet-73581-n: {'ili': 'i97918'}
+    ukrajinet-73583-n: {'ili': 'i97920'}
+    ukrajinet-73584-n: {'ili': 'i97921'}
+    ukrajinet-73587-n: {'ili': 'i97924'}
+    ukrajinet-73589-n: {'ili': 'i97926'}
+    ukrajinet-73595-n: {'ili': 'i97932'}
+    ukrajinet-73599-n: {'ili': 'i97936'}
+    ukrajinet-73607-n: {'ili': 'i97944'}
+    ukrajinet-73649-n: {'ili': 'i97986'}
+    ukrajinet-73652-n: {'ili': 'i97989'}
+    ukrajinet-73657-n: {'ili': 'i97994'}
+    ukrajinet-73659-n: {'ili': 'i97996'}
+    ukrajinet-73663-n: {'ili': 'i98000'}
+    ukrajinet-73665-n: {'ili': 'i98002'}
+    ukrajinet-73686-n: {'ili': 'i98023'}
+    ukrajinet-73688-n: {'ili': 'i98025'}
+    ukrajinet-73711-n: {'ili': 'i98048'}
+    ukrajinet-73721-n: {'ili': 'i98058'}
+    ukrajinet-73746-n: {'ili': 'i98083'}
+    ukrajinet-73774-n: {'ili': 'i98111'}
+    ukrajinet-73778-n: {'ili': 'i98115'}
+    ukrajinet-73780-n: {'ili': 'i98117'}
+    ukrajinet-73809-n: {'ili': 'i98146'}
+    ukrajinet-75088-n: {'ili': 'i87225'}
+    ukrajinet-75941-n: {'ili': 'i88097'}
+    ukrajinet-78513-n: {'ili': 'i90667'}
+    ukrajinet-79259-n: {'ili': 'i91412'}
+    ukrajinet-80159-n: {'ili': 'i92313'}
+    ukrajinet-80263-n: {'ili': 'i92417'}
+    ukrajinet-81297-n: {'ili': 'i93453'}
+    ukrajinet-81354-n: {'ili': 'i93510'}
+    ukrajinet-85481-n: {'ili': 'i116674'}
+    ukrajinet-85543-n: {'ili': 'i116736'}
+    ukrajinet-85922-n: {'ili': 'i117116'}
+    ukrajinet-86028-n: {'ili': 'i117222'}
+    ukrajinet-86053-n: {'ili': 'i117247'}
+    ukrajinet-86104-n: {'ili': 'i117298'}
+    ukrajinet-86105-n: {'ili': 'i117299'}
+    ukrajinet-86162-n: {'ili': 'i117356'}
+    ukrajinet-86176-n: {'ili': 'i117370'}
+    ukrajinet-86214-n: {'ili': 'i117408'}
+    ukrajinet-86345-n: {'ili': 'i117538'}
+    ukrajinet-86371-n: {'ili': 'i117563'}
+    ukrajinet-86409-n: {'ili': 'i117601'}
+    ukrajinet-87305-a: {'ili': 'i15211'}
+    ukrajinet-90403-n: {'ili': 'i76251'}
+    ukrajinet-90565-n: {'ili': 'i76412'}
+    ukrajinet-90987-v: {'ili': 'i22685'}
+    ukrajinet-91027-v: {'ili': 'i22725'}
+    ukrajinet-91948-v: {'ili': 'i23647'}
+    ukrajinet-91955-v: {'ili': 'i23654'}
+    ukrajinet-91986-v: {'ili': 'i23685'}
+    ukrajinet-92009-v: {'ili': 'i23707'}
+    ukrajinet-92172-v: {'ili': 'i23870'}
+    ukrajinet-92261-v: {'ili': 'i23959'}
+    ukrajinet-92353-v: {'ili': 'i24051'}
+    ukrajinet-92389-v: {'ili': 'i24087'}
+    ukrajinet-92833-v: {'ili': 'i24531'}
+    ukrajinet-93078-a: {'ili': 'i18153'}
+    ukrajinet-94167-a: {'ili': 'i1081'}
+    ukrajinet-99831-a: {'ili': 'i6748'}
+    ukrajinet-103078-a: {'ili': 'i9996'}
+    ukrajinet-107616-v: {'ili': 'i35500'}
+    ukrajinet-107624-v: {'ili': 'i35508'}
+    ukrajinet-107626-v: {'ili': 'i35510'}
+    ukrajinet-107749-n: {'ili': 'i75057'}
+    ukrajinet-107752-n: {'ili': 'i75060'}
+    ukrajinet-107801-n: {'ili': 'i75109'}
+    ukrajinet-107810-n: {'ili': 'i75118'}
+    ukrajinet-107811-n: {'ili': 'i75119'}
+    ukrajinet-107813-n: {'ili': 'i75121'}
+    ukrajinet-107946-n: {'ili': 'i75254'}
+    ukrajinet-107962-n: {'ili': 'i75270'}
+    ukrajinet-107978-n: {'ili': 'i75286'}
+    ukrajinet-107981-n: {'ili': 'i75289'}
+    ukrajinet-107984-n: {'ili': 'i75292'}
+    ukrajinet-107986-n: {'ili': 'i75294'}
+    ukrajinet-108058-n: {'ili': 'i75366'}
+    ukrajinet-108095-n: {'ili': 'i75403'}
+    ukrajinet-108108-n: {'ili': 'i75416'}
+    ukrajinet-108312-n: {'ili': 'i75620'}
+    ukrajinet-108334-n: {'ili': 'i75642'}
+    ukrajinet-108370-n: {'ili': 'i75678'}
+    ukrajinet-108436-n: {'ili': 'i75744'}
+    ukrajinet-108466-n: {'ili': 'i75774'}
+    ukrajinet-108527-n: {'ili': 'i75835'}
+    ukrajinet-108530-n: {'ili': 'i75838'}
+    ukrajinet-108539-n: {'ili': 'i75847'}
+    ukrajinet-108731-n: {'ili': 'i76036'}
+    ukrajinet-109078-v: {'ili': 'i30876'}
+    ukrajinet-109154-n: {'ili': 'i76531'}
+    ukrajinet-111767-v: {'ili': 'i29852'}
+    ukrajinet-111780-v: {'ili': 'i29865'}
+    ukrajinet-111791-v: {'ili': 'i29876'}
+    ukrajinet-111930-v: {'ili': 'i30013'}
+    ukrajinet-111941-v: {'ili': 'i30023'}
+    ukrajinet-111949-v: {'ili': 'i30030'}
+    ukrajinet-112273-v: {'ili': 'i30354'}
+    ukrajinet-112319-v: {'ili': 'i30400'}
+    ukrajinet-112422-v: {'ili': 'i30504'}
+    ukrajinet-112734-n: {'ili': 'i35615'}
+    ukrajinet-112935-n: {'ili': 'i35816'}
+    ukrajinet-113183-n: {'ili': 'i36064'}
+    ukrajinet-113315-n: {'ili': 'i36196'}
+    ukrajinet-113329-n: {'ili': 'i36210'}
+    ukrajinet-113354-n: {'ili': 'i36235'}
+    ukrajinet-113504-n: {'ili': 'i36385'}
+    ukrajinet-113545-n: {'ili': 'i36426'}
+    ukrajinet-113578-n: {'ili': 'i36459'}
+    ukrajinet-113600-n: {'ili': 'i36481'}
+    ukrajinet-113664-n: {'ili': 'i36545'}
+    ukrajinet-113755-n: {'ili': 'i36636'}
+    ukrajinet-113868-n: {'ili': 'i36749'}
+    ukrajinet-113931-n: {'ili': 'i36812'}
+    ukrajinet-114194-n: {'ili': 'i37075'}
+    ukrajinet-114216-n: {'ili': 'i37097'}
+    ukrajinet-114224-n: {'ili': 'i37105'}
+    ukrajinet-114256-n: {'ili': 'i37137'}
+    ukrajinet-114268-n: {'ili': 'i37149'}
+    ukrajinet-114297-n: {'ili': 'i37178'}
+    ukrajinet-114309-n: {'ili': 'i37190'}
+    ukrajinet-114366-n: {'ili': 'i37247'}
+    ukrajinet-114408-n: {'ili': 'i37289'}
+    ukrajinet-114414-n: {'ili': 'i37295'}
+    ukrajinet-114448-n: {'ili': 'i37329'}
+    ukrajinet-114458-n: {'ili': 'i37339'}
+    ukrajinet-114490-n: {'ili': 'i37371'}
+    ukrajinet-114491-n: {'ili': 'i37372'}
+    ukrajinet-114502-n: {'ili': 'i37383'}
+    ukrajinet-114531-n: {'ili': 'i37412'}
+    ukrajinet-114566-n: {'ili': 'i37447'}
+    ukrajinet-114584-n: {'ili': 'i37465'}
+    ukrajinet-114600-n: {'ili': 'i37481'}
+    ukrajinet-114615-n: {'ili': 'i37496'}
+    ukrajinet-114637-n: {'ili': 'i37518'}
+    ukrajinet-114641-n: {'ili': 'i37522'}
+    ukrajinet-115438-n: {'ili': 'i38319'}
+    ukrajinet-115466-n: {'ili': 'i38347'}
+    ukrajinet-115554-n: {'ili': 'i38435'}
+    ukrajinet-115769-n: {'ili': 'i38650'}
+    ukrajinet-115958-n: {'ili': 'i38839'}
+    ukrajinet-115967-n: {'ili': 'i38848'}
+    ukrajinet-116294-n: {'ili': 'i39175'}
+    ukrajinet-116699-n: {'ili': 'i39578'}
+    ukrajinet-116749-n: {'ili': 'i39628'}
+    ukrajinet-116765-n: {'ili': 'i39644'}
+    ukrajinet-116812-n: {'ili': 'i39691'}
+    ukrajinet-117091-n: {'ili': 'i39970'}
+    ukrajinet-117099-n: {'ili': 'i39978'}
+    ukrajinet-117297-n: {'ili': 'i40176'}
+    ukrajinet-117321-n: {'ili': 'i40199'}
+    ukrajinet-117497-n: {'ili': 'i40375'}
+    ukrajinet-117744-n: {'ili': 'i40622'}
+    ukrajinet-117763-n: {'ili': 'i40641'}
+    ukrajinet-117772-n: {'ili': 'i40650'}
+    ukrajinet-117778-n: {'ili': 'i40656'}
+    ukrajinet-117817-n: {'ili': 'i40695'}
+    ukrajinet-118020-n: {'ili': 'i40898'}
+    ukrajinet-118122-n: {'ili': 'i41000'}
+    ukrajinet-118189-n: {'ili': 'i41067'}
+    ukrajinet-118304-n: {'ili': 'i41182'}
+    ukrajinet-118416-n: {'ili': 'i41292'}
+    ukrajinet-118436-n: {'ili': 'i41312'}
+    ukrajinet-118513-n: {'ili': 'i41389'}
+    ukrajinet-118572-n: {'ili': 'i41447'}
+    ukrajinet-118599-n: {'ili': 'i41474'}
+    ukrajinet-118636-n: {'ili': 'i41511'}
+    ukrajinet-118708-n: {'ili': 'i41583'}
+    ukrajinet-119118-n: {'ili': 'i41993'}
+    ukrajinet-119173-n: {'ili': 'i42049'}
+    ukrajinet-119483-n: {'ili': 'i107284'}
+    ukrajinet-119487-n: {'ili': 'i107288'}
+    ukrajinet-119497-n: {'ili': 'i107298'}
+    ukrajinet-119501-n: {'ili': 'i107302'}
+    ukrajinet-119505-n: {'ili': 'i107306'}
+    ukrajinet-119506-n: {'ili': 'i107307'}
+    ukrajinet-119507-n: {'ili': 'i107308'}
+    ukrajinet-119511-n: {'ili': 'i107312'}
+    ukrajinet-119512-n: {'ili': 'i107313'}
+    ukrajinet-119543-n: {'ili': 'i107344'}
+    ukrajinet-119544-n: {'ili': 'i107345'}
+    ukrajinet-119549-n: {'ili': 'i107350'}
+    ukrajinet-119550-n: {'ili': 'i107351'}
+    ukrajinet-119569-n: {'ili': 'i107370'}
+    ukrajinet-119610-n: {'ili': 'i107411'}
+    ukrajinet-119614-n: {'ili': 'i107415'}
+    ukrajinet-119635-n: {'ili': 'i107436'}
+    ukrajinet-119638-n: {'ili': 'i107439'}
+    ukrajinet-119663-n: {'ili': 'i107464'}
+    ukrajinet-119673-n: {'ili': 'i107474'}
+    ukrajinet-119688-n: {'ili': 'i107489'}
+    ukrajinet-119691-n: {'ili': 'i107492'}
+    ukrajinet-119703-n: {'ili': 'i107504'}
+    ukrajinet-119717-n: {'ili': 'i107518'}
+    ukrajinet-119736-n: {'ili': 'i107537'}
+    ukrajinet-119742-n: {'ili': 'i107543'}
+    ukrajinet-119763-n: {'ili': 'i107564'}
+    ukrajinet-119775-n: {'ili': 'i107576'}
+    ukrajinet-119776-n: {'ili': 'i107577'}
+    ukrajinet-119926-n: {'ili': 'i107727'}
+    ukrajinet-119976-n: {'ili': 'i107777'}
+    ukrajinet-120000-n: {'ili': 'i107801'}
+    ukrajinet-120046-n: {'ili': 'i107847'}
+    ukrajinet-120056-n: {'ili': 'i107857'}
+    ukrajinet-120061-n: {'ili': 'i107862'}
+    ukrajinet-120067-n: {'ili': 'i107868'}
+    ukrajinet-120090-n: {'ili': 'i107891'}
+    ukrajinet-120111-n: {'ili': 'i107912'}
+    ukrajinet-120158-n: {'ili': 'i107959'}
+    ukrajinet-120178-n: {'ili': 'i107979'}
+    ukrajinet-120183-n: {'ili': 'i107984'}
+    ukrajinet-120234-n: {'ili': 'i108035'}
+    ukrajinet-120250-n: {'ili': 'i108051'}
+    ukrajinet-120281-n: {'ili': 'i109765'}
+    ukrajinet-120293-n: {'ili': 'i109776'}
+    ukrajinet-120309-n: {'ili': 'i109792'}
+    ukrajinet-120336-n: {'ili': 'i109819'}
+    ukrajinet-120365-n: {'ili': 'i109848'}
+    ukrajinet-120376-n: {'ili': 'i109859'}
+    ukrajinet-120380-n: {'ili': 'i109863'}
+    ukrajinet-120381-n: {'ili': 'i109864'}
+    ukrajinet-120393-n: {'ili': 'i109876'}
+    ukrajinet-120399-n: {'ili': 'i109882'}
+    ukrajinet-120400-n: {'ili': 'i109883'}
+    ukrajinet-120403-n: {'ili': 'i109886'}
+    ukrajinet-120408-n: {'ili': 'i109891'}
+    ukrajinet-120414-n: {'ili': 'i109897'}
+    ukrajinet-120419-n: {'ili': 'i109902'}
+    ukrajinet-120467-n: {'ili': 'i109950'}
+    ukrajinet-120492-n: {'ili': 'i109975'}
+    ukrajinet-120525-n: {'ili': 'i110006'}
+    ukrajinet-120526-n: {'ili': 'i110007'}
+    ukrajinet-120538-n: {'ili': 'i110019'}
+    ukrajinet-120552-n: {'ili': 'i110033'}
+    ukrajinet-120562-n: {'ili': 'i110043'}
+    ukrajinet-120567-n: {'ili': 'i110048'}
+    ukrajinet-120589-n: {'ili': 'i110070'}
+    ukrajinet-120591-n: {'ili': 'i110072'}
+    ukrajinet-120594-n: {'ili': 'i110075'}
+    ukrajinet-120595-n: {'ili': 'i110076'}
+    ukrajinet-120621-n: {'ili': 'i110102'}
+    ukrajinet-120794-v: {'ili': 'i32442'}
+    ukrajinet-121330-v: {'ili': 'i24925'}
+    ukrajinet-121355-v: {'ili': 'i24950'}
+    ukrajinet-121403-v: {'ili': 'i24998'}
+    ukrajinet-121872-v: {'ili': 'i21839'}
+    ukrajinet-122395-n: {'ili': 'i84949'}
+    ukrajinet-122467-n: {'ili': 'i85021'}
+    ukrajinet-122473-n: {'ili': 'i85027'}
+    ukrajinet-122495-n: {'ili': 'i85049'}
+    ukrajinet-122558-n: {'ili': 'i85112'}
+    ukrajinet-122623-n: {'ili': 'i85177'}
+    ukrajinet-122672-n: {'ili': 'i85226'}
+    ukrajinet-122691-n: {'ili': 'i85245'}
+    ukrajinet-122722-n: {'ili': 'i85276'}
+    ukrajinet-122731-n: {'ili': 'i85285'}
+    ukrajinet-122770-n: {'ili': 'i85324'}
+    ukrajinet-122801-n: {'ili': 'i85355'}
+    ukrajinet-122810-n: {'ili': 'i85365'}
+    ukrajinet-122823-n: {'ili': 'i85378'}
+    ukrajinet-122832-n: {'ili': 'i85387'}
+    ukrajinet-122855-n: {'ili': 'i85410'}
+    ukrajinet-122869-n: {'ili': 'i85424'}
+    ukrajinet-122902-n: {'ili': 'i85457'}
+    ukrajinet-122903-n: {'ili': 'i85458'}
+    ukrajinet-122956-n: {'ili': 'i85511'}
+    ukrajinet-122975-n: {'ili': 'i85530'}
+    ukrajinet-122996-n: {'ili': 'i85551'}
+    ukrajinet-123092-n: {'ili': 'i85647'}
+    ukrajinet-123136-n: {'ili': 'i85691'}
+    ukrajinet-123199-n: {'ili': 'i85754'}
+    ukrajinet-123203-n: {'ili': 'i85758'}
+    ukrajinet-123206-n: {'ili': 'i85761'}
+    ukrajinet-123219-n: {'ili': 'i85774'}
+    ukrajinet-123273-n: {'ili': 'i85828'}
+    ukrajinet-123294-n: {'ili': 'i85849'}
+    ukrajinet-123306-n: {'ili': 'i85861'}
+    ukrajinet-123334-n: {'ili': 'i85889'}
+    ukrajinet-123335-n: {'ili': 'i85890'}
+    ukrajinet-123392-n: {'ili': 'i85947'}
+    ukrajinet-123415-n: {'ili': 'i85970'}
+    ukrajinet-123416-n: {'ili': 'i85971'}
+    ukrajinet-123432-n: {'ili': 'i85987'}
+    ukrajinet-123468-n: {'ili': 'i86023'}
+    ukrajinet-123475-n: {'ili': 'i86030'}
+    ukrajinet-123480-n: {'ili': 'i86035'}
+    ukrajinet-123596-n: {'ili': 'i86151'}
+    ukrajinet-123623-n: {'ili': 'i86178'}
+    ukrajinet-123685-n: {'ili': 'i86240'}
+    ukrajinet-123687-n: {'ili': 'i86242'}
+    ukrajinet-123713-n: {'ili': 'i86267'}
+    ukrajinet-123719-n: {'ili': 'i86273'}
+    ukrajinet-123813-n: {'ili': 'i86367'}
+    ukrajinet-123852-n: {'ili': 'i86406'}
+  reverse relation is missing
+    ukrajinet-93533-s: {'type': 'also', 'target': 'ukrajinet-107574-s'}
+    ukrajinet-103040-a: {'type': 'also', 'target': 'ukrajinet-105461-a'}
+    ukrajinet-94046-a: {'type': 'also', 'target': 'ukrajinet-94980-a'}
+    ukrajinet-96883-a: {'type': 'also', 'target': 'ukrajinet-105665-a'}
+    ukrajinet-94357-a: {'type': 'also', 'target': 'ukrajinet-99262-a'}
+    ukrajinet-103463-a: {'type': 'also', 'target': 'ukrajinet-97434-a'}
+    ukrajinet-74081-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-101913-a: {'type': 'also', 'target': 'ukrajinet-96544-a'}
+    ukrajinet-93803-a: {'type': 'also', 'target': 'ukrajinet-96225-a'}
+    ukrajinet-99413-a: {'type': 'also', 'target': 'ukrajinet-97238-a'}
+    ukrajinet-96927-a: {'type': 'also', 'target': 'ukrajinet-96897-a'}
+    ukrajinet-99894-a: {'type': 'also', 'target': 'ukrajinet-98543-a'}
+    ukrajinet-105658-a: {'type': 'also', 'target': 'ukrajinet-100219-a'}
+    ukrajinet-107149-a: {'type': 'also', 'target': 'ukrajinet-99413-a'}
+    ukrajinet-103492-a: {'type': 'also', 'target': 'ukrajinet-93433-a'}
+    ukrajinet-97733-a: {'type': 'also', 'target': 'ukrajinet-97058-a'}
+    ukrajinet-103986-a: {'type': 'also', 'target': 'ukrajinet-96909-a'}
+    ukrajinet-95453-a: {'type': 'also', 'target': 'ukrajinet-95505-a'}
+    ukrajinet-96897-a: {'type': 'also', 'target': 'ukrajinet-101525-a'}
+    ukrajinet-97023-a: {'type': 'also', 'target': 'ukrajinet-97012-a'}
+    ukrajinet-104990-a: {'type': 'also', 'target': 'ukrajinet-105503-a'}
+    ukrajinet-91047-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-105393-a: {'type': 'also', 'target': 'ukrajinet-107281-a'}
+    ukrajinet-103925-a: {'type': 'also', 'target': 'ukrajinet-104070-a'}
+    ukrajinet-93451-a: {'type': 'also', 'target': 'ukrajinet-102979-a'}
+    ukrajinet-93811-a: {'type': 'also', 'target': 'ukrajinet-102451-a'}
+    ukrajinet-100026-a: {'type': 'also', 'target': 'ukrajinet-98449-a'}
+    ukrajinet-98332-a: {'type': 'also', 'target': 'ukrajinet-98341-a'}
+    ukrajinet-103005-a: {'type': 'also', 'target': 'ukrajinet-104131-a'}
+    ukrajinet-101585-a: {'type': 'also', 'target': 'ukrajinet-96553-a'}
+    ukrajinet-95440-a: {'type': 'also', 'target': 'ukrajinet-104049-a'}
+    ukrajinet-99779-a: {'type': 'also', 'target': 'ukrajinet-99792-a'}
+    ukrajinet-96898-a: {'type': 'also', 'target': 'ukrajinet-101530-a'}
+    ukrajinet-103044-a: {'type': 'also', 'target': 'ukrajinet-107358-a'}
+    ukrajinet-103634-a: {'type': 'also', 'target': 'ukrajinet-106704-a'}
+    ukrajinet-103998-a: {'type': 'also', 'target': 'ukrajinet-96911-a'}
+    ukrajinet-102424-a: {'type': 'also', 'target': 'ukrajinet-101937-a'}
+    ukrajinet-102533-a: {'type': 'also', 'target': 'ukrajinet-98341-a'}
+    ukrajinet-106606-a: {'type': 'also', 'target': 'ukrajinet-106610-a'}
+    ukrajinet-100504-a: {'type': 'also', 'target': 'ukrajinet-99375-a'}
+    ukrajinet-93289-a: {'type': 'also', 'target': 'ukrajinet-98171-a'}
+    ukrajinet-100775-a: {'type': 'also', 'target': 'ukrajinet-104413-a'}
+    ukrajinet-100964-a: {'type': 'also', 'target': 'ukrajinet-93097-a'}
+    ukrajinet-94915-a: {'type': 'also', 'target': 'ukrajinet-98294-a'}
+    ukrajinet-102560-a: {'type': 'also', 'target': 'ukrajinet-101519-a'}
+    ukrajinet-99170-a: {'type': 'also', 'target': 'ukrajinet-105653-a'}
+    ukrajinet-93712-a: {'type': 'also', 'target': 'ukrajinet-97535-a'}
+    ukrajinet-15811-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-104036-a: {'type': 'also', 'target': 'ukrajinet-106249-a'}
+    ukrajinet-93705-a: {'type': 'also', 'target': 'ukrajinet-93579-a'}
+    ukrajinet-102957-a: {'type': 'also', 'target': 'ukrajinet-103211-a'}
+    ukrajinet-97526-a: {'type': 'also', 'target': 'ukrajinet-93237-a'}
+    ukrajinet-105989-a: {'type': 'also', 'target': 'ukrajinet-104602-a'}
+    ukrajinet-100543-a: {'type': 'also', 'target': 'ukrajinet-98341-a'}
+    ukrajinet-101718-a: {'type': 'also', 'target': 'ukrajinet-101698-a'}
+    ukrajinet-96645-a: {'type': 'also', 'target': 'ukrajinet-106481-a'}
+    ukrajinet-104137-a: {'type': 'also', 'target': 'ukrajinet-98814-a'}
+    ukrajinet-93708-a: {'type': 'also', 'target': 'ukrajinet-97526-a'}
+    ukrajinet-101619-a: {'type': 'also', 'target': 'ukrajinet-101623-a'}
+    ukrajinet-98110-a: {'type': 'also', 'target': 'ukrajinet-94992-a'}
+    ukrajinet-105461-a: {'type': 'also', 'target': 'ukrajinet-98596-a'}
+    ukrajinet-93553-a: {'type': 'also', 'target': 'ukrajinet-102979-a'}
+    ukrajinet-100611-a: {'type': 'also', 'target': 'ukrajinet-96562-a'}
+    ukrajinet-99296-a: {'type': 'also', 'target': 'ukrajinet-93180-a'}
+    ukrajinet-100558-a: {'type': 'also', 'target': 'ukrajinet-93180-a'}
+    ukrajinet-103683-a: {'type': 'also', 'target': 'ukrajinet-96951-a'}
+    ukrajinet-106304-s: {'type': 'also', 'target': 'ukrajinet-107570-s'}
+    ukrajinet-99997-s: {'type': 'also', 'target': 'ukrajinet-107543-s'}
+    ukrajinet-97180-a: {'type': 'also', 'target': 'ukrajinet-102703-a'}
+    ukrajinet-96818-a: {'type': 'also', 'target': 'ukrajinet-101015-a'}
+    ukrajinet-104941-a: {'type': 'also', 'target': 'ukrajinet-103474-a'}
+    ukrajinet-99057-a: {'type': 'also', 'target': 'ukrajinet-105619-a'}
+    ukrajinet-106238-a: {'type': 'also', 'target': 'ukrajinet-104813-a'}
+    ukrajinet-100837-a: {'type': 'also', 'target': 'ukrajinet-105653-a'}
+    ukrajinet-97664-a: {'type': 'also', 'target': 'ukrajinet-97657-a'}
+    ukrajinet-95078-a: {'type': 'also', 'target': 'ukrajinet-106581-a'}
+    ukrajinet-93552-a: {'type': 'also', 'target': 'ukrajinet-102972-a'}
+    ukrajinet-101720-a: {'type': 'also', 'target': 'ukrajinet-101700-a'}
+    ukrajinet-96904-a: {'type': 'also', 'target': 'ukrajinet-103986-a'}
+    ukrajinet-93427-a: {'type': 'also', 'target': 'ukrajinet-97941-a'}
+    ukrajinet-94185-a: {'type': 'also', 'target': 'ukrajinet-103972-a'}
+    ukrajinet-96812-a: {'type': 'also', 'target': 'ukrajinet-101012-a'}
+    ukrajinet-98171-a: {'type': 'also', 'target': 'ukrajinet-98179-a'}
+    ukrajinet-106344-a: {'type': 'also', 'target': 'ukrajinet-93798-a'}
+    ukrajinet-98005-a: {'type': 'also', 'target': 'ukrajinet-98239-a'}
+    ukrajinet-93798-a: {'type': 'also', 'target': 'ukrajinet-106371-a'}
+    ukrajinet-101286-a: {'type': 'also', 'target': 'ukrajinet-93646-a'}
+    ukrajinet-104447-a: {'type': 'also', 'target': 'ukrajinet-104413-a'}
+    ukrajinet-107003-a: {'type': 'also', 'target': 'ukrajinet-95056-a'}
+    ukrajinet-104452-a: {'type': 'also', 'target': 'ukrajinet-101815-a'}
+    ukrajinet-99207-a: {'type': 'also', 'target': 'ukrajinet-95080-a'}
+    ukrajinet-105496-a: {'type': 'also', 'target': 'ukrajinet-100497-a'}
+    ukrajinet-101590-a: {'type': 'also', 'target': 'ukrajinet-96545-a'}
+    ukrajinet-93431-a: {'type': 'also', 'target': 'ukrajinet-97944-a'}
+    ukrajinet-105404-a: {'type': 'also', 'target': 'ukrajinet-107285-a'}
+    ukrajinet-103037-a: {'type': 'also', 'target': 'ukrajinet-103744-a'}
+    ukrajinet-98675-a: {'type': 'also', 'target': 'ukrajinet-103403-a'}
+    ukrajinet-100848-s: {'type': 'also', 'target': 'ukrajinet-107569-s'}
+    ukrajinet-104363-a: {'type': 'also', 'target': 'ukrajinet-104356-a'}
+    ukrajinet-103403-a: {'type': 'also', 'target': 'ukrajinet-96606-a'}
+    ukrajinet-101779-s: {'type': 'also', 'target': 'ukrajinet-107568-s'}
+    ukrajinet-97585-a: {'type': 'also', 'target': 'ukrajinet-101513-a'}
+    ukrajinet-92021-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-94353-a: {'type': 'also', 'target': 'ukrajinet-99252-a'}
+    ukrajinet-97982-a: {'type': 'also', 'target': 'ukrajinet-100779-a'}
+    ukrajinet-104008-a: {'type': 'also', 'target': 'ukrajinet-103953-a'}
+    ukrajinet-95841-a: {'type': 'also', 'target': 'ukrajinet-102252-a'}
+    ukrajinet-103497-a: {'type': 'also', 'target': 'ukrajinet-93436-a'}
+    ukrajinet-98602-a: {'type': 'also', 'target': 'ukrajinet-94524-a'}
+    ukrajinet-104264-a: {'type': 'also', 'target': 'ukrajinet-99500-a'}
+    ukrajinet-94640-a: {'type': 'also', 'target': 'ukrajinet-103037-a'}
+    ukrajinet-104413-a: {'type': 'also', 'target': 'ukrajinet-99642-a'}
+    ukrajinet-104404-a: {'type': 'also', 'target': 'ukrajinet-99646-a'}
+    ukrajinet-91708-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-102983-s: {'type': 'also', 'target': 'ukrajinet-107550-s'}
+    ukrajinet-100686-a: {'type': 'also', 'target': 'ukrajinet-94046-a'}
+    ukrajinet-105962-a: {'type': 'also', 'target': 'ukrajinet-104264-a'}
+    ukrajinet-97652-a: {'type': 'also', 'target': 'ukrajinet-100833-a'}
+    ukrajinet-101618-a: {'type': 'also', 'target': 'ukrajinet-101622-a'}
+    ukrajinet-99287-a: {'type': 'also', 'target': 'ukrajinet-100186-a'}
+    ukrajinet-100219-a: {'type': 'also', 'target': 'ukrajinet-99777-a'}
+    ukrajinet-103922-a: {'type': 'also', 'target': 'ukrajinet-104069-a'}
+    ukrajinet-105947-s: {'type': 'also', 'target': 'ukrajinet-107544-s'}
+    ukrajinet-93446-a: {'type': 'also', 'target': 'ukrajinet-102972-a'}
+    ukrajinet-98198-a: {'type': 'also', 'target': 'ukrajinet-98033-a'}
+    ukrajinet-99500-a: {'type': 'also', 'target': 'ukrajinet-105670-a'}
+    ukrajinet-105452-a: {'type': 'also', 'target': 'ukrajinet-98592-a'}
+    ukrajinet-105653-a: {'type': 'also', 'target': 'ukrajinet-100833-a'}
+    ukrajinet-98756-a: {'type': 'also', 'target': 'ukrajinet-98382-a'}
+    ukrajinet-103631-a: {'type': 'also', 'target': 'ukrajinet-106722-a'}
+    ukrajinet-48192-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-102063-a: {'type': 'also', 'target': 'ukrajinet-102098-a'}
+    ukrajinet-95112-a: {'type': 'also', 'target': 'ukrajinet-95368-a'}
+    ukrajinet-101749-a: {'type': 'also', 'target': 'ukrajinet-98037-a'}
+    ukrajinet-95560-a: {'type': 'also', 'target': 'ukrajinet-94764-a'}
+    ukrajinet-93453-a: {'type': 'also', 'target': 'ukrajinet-101700-a'}
+    ukrajinet-106187-a: {'type': 'also', 'target': 'ukrajinet-106379-a'}
+    ukrajinet-15847-v: {'type': 'also', 'target': 'ukrajinet-90752-v'}
+    ukrajinet-100399-a: {'type': 'also', 'target': 'ukrajinet-96785-a'}
+    ukrajinet-102666-a: {'type': 'also', 'target': 'ukrajinet-102498-a'}
+    ukrajinet-100078-a: {'type': 'also', 'target': 'ukrajinet-102262-a'}
+    ukrajinet-106054-a: {'type': 'also', 'target': 'ukrajinet-102262-a'}
+    ukrajinet-100375-a: {'type': 'also', 'target': 'ukrajinet-107073-a'}
+    ukrajinet-97422-a: {'type': 'also', 'target': 'ukrajinet-94980-a'}
+    ukrajinet-98509-s: {'type': 'also', 'target': 'ukrajinet-107570-s'}
+    ukrajinet-99967-a: {'type': 'also', 'target': 'ukrajinet-99985-a'}
+    ukrajinet-101307-a: {'type': 'also', 'target': 'ukrajinet-94064-a'}
+    ukrajinet-99485-a: {'type': 'also', 'target': 'ukrajinet-105665-a'}
+    ukrajinet-95958-a: {'type': 'also', 'target': 'ukrajinet-94781-a'}
+    ukrajinet-107193-a: {'type': 'also', 'target': 'ukrajinet-93169-a'}
+    ukrajinet-107443-a: {'type': 'also', 'target': 'ukrajinet-104004-a'}
+    ukrajinet-98920-a: {'type': 'also', 'target': 'ukrajinet-98932-a'}
+    ukrajinet-97219-a: {'type': 'also', 'target': 'ukrajinet-105055-a'}
+    ukrajinet-101097-s: {'type': 'also', 'target': 'ukrajinet-107548-s'}
+    ukrajinet-97967-a: {'type': 'also', 'target': 'ukrajinet-100778-a'}
+    ukrajinet-105492-a: {'type': 'also', 'target': 'ukrajinet-100495-a'}
+    ukrajinet-95080-a: {'type': 'also', 'target': 'ukrajinet-106583-a'}
+    ukrajinet-106611-a: {'type': 'also', 'target': 'ukrajinet-107537-a'}
+    ukrajinet-103959-a: {'type': 'also', 'target': 'ukrajinet-94673-a'}
+    ukrajinet-95418-a: {'type': 'also', 'target': 'ukrajinet-99985-a'}
+    ukrajinet-104507-a: {'type': 'also', 'target': 'ukrajinet-96703-a'}
+    ukrajinet-93966-a: {'type': 'also', 'target': 'ukrajinet-93562-a'}
+    ukrajinet-25352-n: {'type': 'also', 'target': 'ukrajinet-107558-s'}
+    ukrajinet-97353-a: {'type': 'also', 'target': 'ukrajinet-97345-a'}
+    ukrajinet-101815-a: {'type': 'also', 'target': 'ukrajinet-106779-a'}
+    ukrajinet-105318-a: {'type': 'also', 'target': 'ukrajinet-105729-a'}
+    ukrajinet-97349-a: {'type': 'also', 'target': 'ukrajinet-96315-a'}
+    ukrajinet-103729-a: {'type': 'also', 'target': 'ukrajinet-104452-a'}
+    ukrajinet-100400-a: {'type': 'also', 'target': 'ukrajinet-96789-a'}
+    ukrajinet-95566-s: {'type': 'also', 'target': 'ukrajinet-107553-s'}
+    ukrajinet-97285-a: {'type': 'also', 'target': 'ukrajinet-97256-a'}
+    ukrajinet-98700-a: {'type': 'also', 'target': 'ukrajinet-105975-a'}
+    ukrajinet-95845-a: {'type': 'also', 'target': 'ukrajinet-102262-a'}
+    ukrajinet-103643-a: {'type': 'also', 'target': 'ukrajinet-95708-a'}
+    ukrajinet-94129-s: {'type': 'also', 'target': 'ukrajinet-107543-s'}
+    ukrajinet-103648-a: {'type': 'also', 'target': 'ukrajinet-104452-a'}
+    ukrajinet-103353-a: {'type': 'also', 'target': 'ukrajinet-104131-a'}
+    ukrajinet-99777-a: {'type': 'also', 'target': 'ukrajinet-99789-a'}
+    ukrajinet-100502-a: {'type': 'also', 'target': 'ukrajinet-99369-a'}
+    ukrajinet-93607-a: {'type': 'also', 'target': 'ukrajinet-93291-a'}
+    ukrajinet-102844-a: {'type': 'also', 'target': 'ukrajinet-100350-a'}
+    ukrajinet-103859-a: {'type': 'also', 'target': 'ukrajinet-99646-a'}
+    ukrajinet-105587-a: {'type': 'also', 'target': 'ukrajinet-100438-a'}
+    ukrajinet-101698-a: {'type': 'also', 'target': 'ukrajinet-93896-a'}
+    ukrajinet-95315-a: {'type': 'also', 'target': 'ukrajinet-95112-a'}
+    ukrajinet-93285-a: {'type': 'also', 'target': 'ukrajinet-93607-a'}
+    ukrajinet-96873-a: {'type': 'also', 'target': 'ukrajinet-105670-a'}
+    ukrajinet-103909-a: {'type': 'also', 'target': 'ukrajinet-96252-a'}
+    ukrajinet-93969-a: {'type': 'also', 'target': 'ukrajinet-93567-a'}
+    ukrajinet-95259-a: {'type': 'also', 'target': 'ukrajinet-95362-a'}
+    ukrajinet-105921-a: {'type': 'also', 'target': 'ukrajinet-104290-a'}
+    ukrajinet-97946-a: {'type': 'also', 'target': 'ukrajinet-97555-a'}
+    ukrajinet-95580-a: {'type': 'also', 'target': 'ukrajinet-95595-a'}
+    ukrajinet-98038-a: {'type': 'also', 'target': 'ukrajinet-98024-a'}
+    ukrajinet-104448-a: {'type': 'also', 'target': 'ukrajinet-101808-a'}
+    ukrajinet-101242-a: {'type': 'also', 'target': 'ukrajinet-101282-a'}
+    ukrajinet-98037-a: {'type': 'also', 'target': 'ukrajinet-98033-a'}
+    ukrajinet-97134-a: {'type': 'also', 'target': 'ukrajinet-103888-a'}
+    ukrajinet-99380-a: {'type': 'also', 'target': 'ukrajinet-105596-a'}
+    ukrajinet-102637-a: {'type': 'also', 'target': 'ukrajinet-94760-a'}
+    ukrajinet-106191-a: {'type': 'also', 'target': 'ukrajinet-106375-a'}
+    ukrajinet-102049-a: {'type': 'also', 'target': 'ukrajinet-98415-a'}
+    ukrajinet-98215-a: {'type': 'also', 'target': 'ukrajinet-102080-a'}
