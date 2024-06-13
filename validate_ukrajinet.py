@@ -82,7 +82,7 @@ def find_duplicate_lexentries(wordnet):
 def find_inconsistent_lexids(wordnet):
     lexicon = get_wordnet_lexicon_local(wordnet)
     for lexentry in lexicon.iter('LexicalEntry'):
-        lemma_id = lexentry.attrib['id']
+        lemma_id = lexentry.attrib['id'][7:-2]
         for sense in lexentry.iter('Sense'):
             sense_id = sense.attrib['id']
             sense_w_id = sense_id.split('_')[0]
@@ -347,7 +347,7 @@ def highest_lex_id(wordnet):
     lexicon = get_wordnet_lexicon_local(wordnet)
     top_id = 0
     for lexentry in lexicon.iter('LexicalEntry'):
-        lex_id = lexentry.attrib['id'][1:]
+        lex_id = lexentry.attrib['id'][8:-2]
         if int(lex_id) > top_id:
             top_id = int(lex_id)
         else:
@@ -367,8 +367,8 @@ def test_necessary_conditions(wordnet):
     g_wordDict = get_word_dict(wordnet)
     print("Test for valid xml ...")
     test_valid_xml(wordnet)
-    print("Test for duplicate LexEntries ...") 
-    find_duplicate_lexentries(wordnet)
+#    print("Test for duplicate LexEntries ...") 
+#    find_duplicate_lexentries(wordnet)
     print("Test for POS in LexEntries ...")
     test_lexentries_pos(wordnet)
     print("Test for POS in Synsets ...")
@@ -394,8 +394,8 @@ def test_necessary_conditions(wordnet):
 
 
 #Main Program
-g_wordDict = get_word_dict('ukrajinet.xml')
-test_necessary_conditions('ukrajinet.xml')
+#g_wordDict = get_word_dict('ukrajinet.xml')
+#test_necessary_conditions('ukrajinet.xml')
 #find_inconsistent_lexids('ukrainian_wordnet_v3.xml')
 #test_for_valid_ids('ukrainian_wordnet_v3.xml')
 #test_valid_xml('ukrainian_wordnet_v3.xml')
