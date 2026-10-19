@@ -678896,8 +678896,6 @@
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-1756-n"/>
   <SynsetRelation relType="meronym" target="wnuk-55557-n"/>
-  <SynsetRelation relType="hyponym" target="wnuk-1976-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-1976-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-56478-n"/>
  </Synset>
  <Synset id="wnuk-1977-n" ili="i108421" partOfSpeech="n">
@@ -682469,8 +682467,6 @@
   <Definition>
    (біологія) вивчення загальних принципів наукової класифікації
   </Definition>
-  <SynsetRelation relType="hypernym" target="wnuk-2907-n"/>
-  <SynsetRelation relType="hyponym" target="wnuk-2907-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-6387-n"/>
  </Synset>
  <Synset id="wnuk-2908-n" ili="i72558" partOfSpeech="n">
