@@ -668820,7 +668820,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-2657-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-520-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-120404-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-784-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-784-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-120406-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-739-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-120412-n"/>
@@ -669921,7 +669921,7 @@
   <Definition>
    видобування чого-небудь натисканням
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-114406-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-114406-n"/>
  </Synset>
  <Synset id="wnuk-333-n" ili="" partOfSpeech="n">
   <Definition>
@@ -671243,7 +671243,7 @@
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-73224-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-73243-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-73240-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-73240-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-782-n"/>
   <Example>
    Під дією відповідних променів частинки газу виробляли ті барви, які були необхідні саме в цю мить для об'ємного зображення (М. Руденко); Пізніше вони так само вивчатимуть різні стани організму під час вживання алкоголю, паління чи під дією пігулок (І. Роздобудько); Повидло й варення готують із плодів та ягід, використовуючи консервувальну дію цукру (з наук. літ.).
@@ -672846,7 +672846,7 @@
   <Definition>
    геометрична фігура, яка має десять кутів
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-174-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-174-n"/>
   <Example>
    У задачі пропонується визначити апофему правильного десятикутника (з навч. літ.); Піфагорійці визначили правила побудови правильних плоских фігур, зокрема п'ятикутника і десятикутника (з навч. літ.).
   </Example>
@@ -674772,7 +674772,7 @@
   <Definition>
    підвісна тканина, що використовується як жалюзі (особливо для вікна)
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-27212-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-27212-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-29571-n"/>
   <SynsetRelation relType="meronym" target="wnuk-29916-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-30025-n"/>
@@ -676372,7 +676372,7 @@
   <Definition>
    (інформатика) символічне розташування даних або інструкцій у комп'ютерній програмі або набір таких інструкцій
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-63141-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-63141-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-63154-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-63155-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-63157-n"/>
@@ -676389,7 +676389,7 @@
    запис повідомлення кодом або шифром
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-115768-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-115776-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-115776-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-115782-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-115783-n"/>
  </Synset>
@@ -677001,7 +677001,7 @@
   <Definition>
    одиниця СІ кількості електрики (електричного заряду), що дорівнює кількості електрики, яка протікає через поперечний переріз за 1 с при сталому струмі 1 А
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-72158-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-72158-n"/>
   <SynsetRelation relType="holonym" target="wnuk-72179-n"/>
   <SynsetRelation relType="holonym" target="wnuk-72180-n"/>
  </Synset>
@@ -679751,7 +679751,7 @@
   <Definition>
    збільшення в два рази
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-119961-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-119961-n"/>
  </Synset>
  <Synset id="wnuk-2214-n" ili="" partOfSpeech="n"/>
  <Synset id="wnuk-2215-n" ili="" partOfSpeech="n"/>
@@ -681687,7 +681687,7 @@
   <Definition>
    крихка неорганічна прозора речовина з нерегулярною атомною структурою
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-57840-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-57840-n"/>
   <SynsetRelation relType="holonym" target="wnuk-30682-n"/>
   <SynsetRelation relType="holonym" target="wnuk-30677-n"/>
   <SynsetRelation relType="holonym" target="wnuk-33804-n"/>
@@ -682085,7 +682085,7 @@
   <Definition>
    перетворюватися на кого-, що-небудь
   </Definition>
-  <SynsetRelation relType="hyponym" target="wnuk-91942-v"/>
+  <SynsetRelation relType="hypernym" target="wnuk-91942-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-91210-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-91988-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-20743-v"/>
@@ -705851,7 +705851,6 @@
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-6274-n"/>
   <SynsetRelation relType="holonym" target="wnuk-6331-n"/>
-  <SynsetRelation relType="domain_topic" target="wnuk-28607-n"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-94077-a"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-102121-a"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-102123-a"/>
@@ -857990,7 +857989,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-35272-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-37558-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-37591-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-1049-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-1049-n"/>
   <SynsetRelation relType="holonym" target="wnuk-30484-n"/>
  </Synset>
  <Synset id="wnuk-27213-n" ili="i50843" partOfSpeech="n" dc:subject="noun.artifact">
@@ -868218,7 +868217,6 @@
   <SynsetRelation relType="has_domain_topic" target="wnuk-4482-n"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-4835-n"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-4836-n"/>
-  <SynsetRelation relType="has_domain_topic" target="wnuk-6288-n"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-62773-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-63168-n"/>
   <SynsetRelation relType="has_domain_topic" target="wnuk-64635-n"/>
@@ -1099873,7 +1099871,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-58223-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-58373-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-2183-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-2727-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-2727-n"/>
  </Synset>
  <Synset id="wnuk-57841-n" ili="i116245" partOfSpeech="n" dc:subject="noun.substance">
   <Definition>
@@ -1140003,7 +1140001,7 @@
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-63171-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-63142-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-1414-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-1414-n"/>
  </Synset>
  <Synset id="wnuk-63142-n" ili="i69872" partOfSpeech="n" dc:subject="noun.communication">
   <Definition>
@@ -1206236,7 +1206234,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-72179-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-72180-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-72181-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-1596-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-1596-n"/>
  </Synset>
  <Synset id="wnuk-72159-n" ili="i108339" partOfSpeech="n" dc:subject="noun.quantity">
   <Definition>
@@ -1213957,7 +1213955,7 @@
    (фізика) вторинний вплив на систему, який змушує її трохи відхилятися
   </Definition>
   <SynsetRelation relType="hyponym" target="wnuk-73241-n"/>
-  <SynsetRelation relType="hyponym" target="wnuk-524-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-524-n"/>
  </Synset>
  <Synset id="wnuk-73241-n" ili="i97579" partOfSpeech="n" dc:subject="noun.phenomenon">
   <Definition>
@@ -1219239,7 +1219237,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-74030-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74032-v"/>
   <SynsetRelation relType="similar" target="wnuk-74033-v"/>
-  <SynsetRelation relType="hyponym" target="wnuk-74039-v"/>
+  <SynsetRelation relType="hypernym" target="wnuk-74039-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74054-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74058-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74059-v"/>
@@ -1219377,7 +1219375,7 @@
   <Definition>
    бути або робити щось у більшій мірі
   </Definition>
-  <SynsetRelation relType="hypernym" target="wnuk-74018-v"/>
+  <SynsetRelation relType="hyponym" target="wnuk-74018-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74033-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74034-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-74035-v"/>
@@ -1342413,7 +1342411,7 @@
   </Definition>
   <SynsetRelation relType="hypernym" target="wnuk-90626-v"/>
   <SynsetRelation relType="hyponym" target="wnuk-91946-v"/>
-  <SynsetRelation relType="hypernym" target="wnuk-2811-v"/>
+  <SynsetRelation relType="hyponym" target="wnuk-2811-v"/>
  </Synset>
  <Synset id="wnuk-91943-v" ili="i23642" partOfSpeech="v" dc:subject="verb.change">
   <Definition>
@@ -1498017,7 +1498015,7 @@
   <SynsetRelation relType="hypernym" target="wnuk-114405-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-114407-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-114413-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-332-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-332-n"/>
  </Synset>
  <Synset id="wnuk-114407-n" ili="i37288" partOfSpeech="n" dc:subject="noun.act">
   <Definition>
@@ -1508780,7 +1508778,7 @@
   </Definition>
   <SynsetRelation relType="hyponym" target="wnuk-115777-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-115781-n"/>
-  <SynsetRelation relType="hyponym" target="wnuk-1415-n"/>
+  <SynsetRelation relType="hypernym" target="wnuk-1415-n"/>
  </Synset>
  <Synset id="wnuk-115777-n" ili="i38658" partOfSpeech="n" dc:subject="noun.act">
   <Definition>
@@ -1539050,7 +1539048,7 @@
   <SynsetRelation relType="hyponym" target="wnuk-120085-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-120088-n"/>
   <SynsetRelation relType="hyponym" target="wnuk-120222-n"/>
-  <SynsetRelation relType="hypernym" target="wnuk-2213-n"/>
+  <SynsetRelation relType="hyponym" target="wnuk-2213-n"/>
  </Synset>
  <Synset id="wnuk-119962-n" ili="i107763" partOfSpeech="n" dc:subject="noun.process">
   <Definition>
